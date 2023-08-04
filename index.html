@@ -23,7 +23,7 @@
     <script>
         window.$docsify = {
             // 项目名称
-            name: 'Docsify-Guide',
+            name: 'BIF-Guide',
             // 仓库地址，点击右上角的Github章鱼猫头像会跳转到此地址
             repo: 'https://github.com/caict-4iot-dev',
             // 侧边栏支持，默认加载的是项目根目录下的_sidebar.md文件
@@ -35,7 +35,7 @@
             // 最大支持渲染的标题层级
             maxLevel: 2,
             // 自定义侧边栏后默认不会再生成目录，设置生成目录的最大层级（建议配置为2-4）
-            subMaxLevel: 4,
+            subMaxLevel: 2,
             // 小屏设备下合并导航栏到侧边栏
             mergeNavbar: true,
             /*搜索相关设置*/
@@ -51,7 +51,51 @@
                 noData: '找不到结果',
                 depth: 4,
                 hideOtherSidebarContent: false,
-                namespace: 'Docsify-Guide',
+                namespace: '星火链网应用开放文档',
+            },
+            markdown: {
+                renderer: {
+                table: function (header, body) {
+                    // 从表体第一行读取列宽配置
+                    let firstRow = body.substring(0, body.indexOf("</tr>") + 5);
+                    // 将列宽配置dom字符串转换为可处理的字符串 :width,:width,...
+                    let colWidthConfig = firstRow
+                    .replace("<tr>", "")
+                    .replace("</tr>", "")
+                    .replaceAll("\n", "")
+                    .replace(/<td[^>]*>/g, "")
+                    .replaceAll("</td>", ",");
+                    colWidthConfig = colWidthConfig.substring(
+                    0,
+                    colWidthConfig.length - 1
+                    );
+                    let colgroupDomStr = "";
+                    // 当前读取到的第一行是列宽配置行, 拼接列宽配置dom字符串
+                    if (colWidthConfig.startsWith(":")) {
+                    // 去除多余的 :
+                    colWidthConfig = colWidthConfig.replaceAll(":", "");
+                    colgroupDomStr = "<colgroup>";
+                    for (let item of colWidthConfig.split(",")) {
+                        colgroupDomStr += `<col width="${item}"></col>`;
+                    }
+                    colgroupDomStr += "</colgroup>";
+
+                    body = body.substring(body.indexOf("</tr>") + 5);
+                    }
+
+                    // 拼接table dom字符串并返回
+                    return (
+                    "<table>" +
+                    colgroupDomStr +
+                    "<thead>" +
+                    header +
+                    "</thead><tbody>" +
+                    body +
+                    "</tbody>" +
+                    "</table>"
+                    );
+                }
+                }
             }
         }
     </script>
