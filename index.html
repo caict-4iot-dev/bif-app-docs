@@ -1,0 +1,17 @@
+<script type="text/javascript">
+  var type = navigator.appName;
+  if (type == "Netscape") {
+    var lang = navigator.language;//获取浏览器配置语言，支持非IE浏览器
+  } else {
+    var lang = navigator.userLanguage;//获取浏览器配置语言，支持IE5+ == navigator.systemLanguage
+  };
+
+  switch (lang.toLowerCase()) {
+    case "zh-cn":
+      location.href = "docs/index.html#/";
+      break;
+    default:
+      location.href = "docs/index.html#/";
+      break;
+  }
+</script>
