@@ -7,21 +7,22 @@
 DNA注册认证平台面向资产数字化和数字化资产应用场景，充分运用大数据、区块链、NFT技术，构建的具备数字资产注册、确权认证、交易流通、资产管理、技术服务和监测监管等功能的数字资产公共服务网络。
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/DNA注册认证平台图片【概述】-1.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/DNA注册认证平台图片【概述】-1.png" width="100%" width="100%">
 </center>
 
-### 应用场景
+
+### 一、应用场景
 
 - 申请注册认证业务：用户通过注册认证平台提交申请材料，获得数藏注册和认证API接口权限。
 - 审核注册认证业务：信通院审核平台方业务资质，完成应用审核和DNA资产备案审查。包括：API权限审批、冻结、解冻，查验企业和DNA资产信息备案情况等。
 
-### 主要功能
+### 二、主要功能
 
 - 数字资产创建：基于星火·链网DNA标准协议提供便捷的资产管理API服务，帮助业务方快速搭建专属数字资产应用。
 - 链上资产注册认证：通过星火·链网主子链接入体系，将已有链网数据资产接入星火生态，实现资产统一监管和互联互通。
 - 资产监测监管：围绕星火生态体系DNA数据资产，部署监管治理合约，统一监测监管，保障资产安全。
 
-### 产品特点
+### 三、产品特点
 
 - 统一协议：基于星火·链网统一构建的数字原生资产（DNA）标准协议，为数字资产带来安全可信、可管可溯、互通互认等核心技术特性。
 - 国家背书：通过国家主链为主子链网络中的数字资产进行技术背书，保障数字资产凭证在链群结构中的安全可信与不可篡改。
@@ -47,12 +48,13 @@ DNA注册认证平台面向资产数字化和数字化资产应用场景，充�
 ​           主网阶段：需要重新在**“星火主网”**创建星火通账户并完成企业认证。
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/使用手册图片-1.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/使用手册图片-1.png" width="100%" width="100%">
 </center>
+
 
 #### 1.2 签署协议及申请准入
 
-完成相关协议签署后，通过”**DNA注册认证服务平台**”提交星火账户（BID）、企业认证材料、应用平台资料，获取apiKey及apiSecret。
+完成相关协议签署后，通过“**DNA注册认证服务平台**”提交星火账户（BID）、企业认证材料、应用平台资料，获取apiKey及apiSecret。
 
 备注：
 
@@ -81,38 +83,44 @@ DNA注册认证平台：http://dna.bitfactory.cn/manage
 #### 2.1 登录平台
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/使用手册图片-2.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/使用手册图片-2.png" width="100%" width="100%">
 </center>
+
 
 #### 2.2 出示凭证
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/使用手册图片-3.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/使用手册图片-3.png" width="100%" width="100%">
 </center>
+
 
 #### 2.3 创建应用
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/使用手册图片-4.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/使用手册图片-4.png" width="100%" width="100%">
 </center>
+
 
 #### 2.4 完成应用创建
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/使用手册图片-5.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/使用手册图片-5.png" width="100%" width="100%">
 </center>
+
 
 #### 2.5 等待审核中
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/使用手册图片-6.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/使用手册图片-6.png" width="100%" width="100%">
 </center>
+
 
 #### 2.6 审核通过获取权限
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/使用手册图片-7.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/使用手册图片-7.png" width="100%" width="100%">
 </center>
+
 
 获得数据：智能合约地址、APIkey和secret、BID签名服务。
 
@@ -141,32 +149,37 @@ accessToken需要应用方通过apiKey和apiSecret调用相关平台接口获得
 创建企业的星火账户
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/创建企业的星火账户.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/创建企业的星火账户.png" width="100%" width="100%">
 </center>
+
 
 获取accessToken
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/获取access token.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/获取access token.png" width="100%" width="100%">
 </center>
+
 
 创建用户的星火账户
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/创建用户的星火账户.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/创建用户的星火账户.png" width="100%" width="100%">
 </center>
+
 
 创建数字资产集合
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/创建数字资产集合.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/创建数字资产集合.png" width="100%" width="100%">
 </center>
+
 
 转移/销毁数字资产
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/转移或销毁数字资产.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/转移或销毁数字资产.png" width="100%" width="100%">
 </center>
+
 
 ### 四、接口认证及账户管理
 
@@ -198,7 +211,7 @@ https://{{url}}/registration/api/v2/getToken
 **请求示例：**
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-1.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-1.png" width="100%" width="100%">
 </center>
 
 **响应示例：**
@@ -243,7 +256,7 @@ http://localhost:8888/bifApi/v1/createAddress
 **请求示例：**
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-2.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-2.png" width="100%" width="100%">
 </center>
 
 **请求体:**
@@ -282,24 +295,24 @@ http://localhost:8888/bifApi/v1/contract
 
 **请求参数**
 
-| **字段名**          | **类型** | **是否必填 ** | **描述**                                                                                                                                                       |
-| ---------------- | ------ |:--------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| senderAddress    | string | 是         | 交易源账号，即交易的发起方                                                                                                                                                |
-| senderPrivateKey | string | 是         | 交易源账户私钥                                                                                                                                                      |
-| contractAddress  | string | 是         | 合约账户地址xxxxxxxxx                                                                                                                                              |
-| bifAmount        | int64  | 是         | 转账金额 ，参数为 0                                                                                                                                                  |
-| feeLimit         | int64  | 是         | 参数为20,000,000                                                                                                                                                |
-| gasPrice         | int64  | 是         | gas费，参数为200                                                                                                                                                  |
-| nonce            | int64  | 是         | nonce  需要从链上获取，参照接口6.11                                                                                                                                      |
-| input            | string | 是         | 待触发的合约的main()入参，为调用上链交易接口的入参数<br/>转移数字资产"input":{"{\"function\":\"safeTransferFrom(address,address,string)\",\"args\":\"fromAddress,toAddress,'tokenBid'\"}} |
+| **字段名**       | **类型** | **是否必填** | **描述**                                                     |
+| ---------------- | -------- | :----------- | ------------------------------------------------------------ |
+| senderAddress    | string   | 是           | 交易源账号，即交易的发起方                                   |
+| senderPrivateKey | string   | 是           | 交易源账户私钥                                               |
+| contractAddress  | string   | 是           | 合约账户地址xxxxxxxxx                                        |
+| bifAmount        | int64    | 是           | 转账金额 ，参数为 0                                          |
+| feeLimit         | int64    | 是           | 参数为20,000,000                                             |
+| gasPrice         | int64    | 是           | gas费，参数为200                                             |
+| nonce            | int64    | 是           | nonce  需要从链上获取，参照接口6.11                          |
+| input            | string   | 是           | 待触发的合约的main()入参，为调用上链交易接口的入参数<br/>转移数字资产"input":{"{\"function\":\"safeTransferFrom(address,address,string)\",\"args\":\"fromAddress,toAddress,'tokenBid'\"}} |
 
 **input参数**
 
-| **字段名**     | **类型** | **是否必填 ** | **描述**                                        |
-| ----------- | ------ | --------- | --------------------------------------------- |
-| fromAddress | string | 是         | 用户数字资产持有者地址,保证都是应用下的账户                        |
-| tokenBid    | string | 是         | 数字资产bid，每个数字资产绑定一个主链bid作为唯一识别。调用星火链网接口获取主链bid |
-| toAddress   | string | 是         | 用户接收数字资产的地址，保证都是应用下的账户                        |
+| **字段名**  | **类型** | **是否必填 ** | **描述**                                                     |
+| ----------- | -------- | ------------- | ------------------------------------------------------------ |
+| fromAddress | string   | 是            | 用户数字资产持有者地址,保证都是应用下的账户                  |
+| tokenBid    | string   | 是            | 数字资产bid，每个数字资产绑定一个主链bid作为唯一识别。调用星火链网接口获取主链bid |
+| toAddress   | string   | 是            | 用户接收数字资产的地址，保证都是应用下的账户                 |
 
 **响应参数**
 
@@ -315,7 +328,7 @@ http://localhost:8888/bifApi/v1/contract
 **请求示例：**
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-3.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-3.png" width="100%" width="100%">
 </center>
 
 **请求体：**
@@ -361,22 +374,22 @@ http://localhost:8888/bifApi/v1/contract
 
 **请求参数**
 
-| **字段名**          | **类型** | **是否必填 ** | **描述**                                                                                                      |
-| ---------------- | ------ | --------- | ----------------------------------------------------------------------------------------------------------- |
-| senderAddress    | string | 是         | 交易源账号，即交易的发起方                                                                                               |
-| senderPrivateKey | string | 是         | 交易源账户私钥                                                                                                     |
-| contractAddress  | string | 是         | 合约账户地址xxxxxxxxx                                                                                             |
-| bifAmount        | int64  | 是         | 转账金额 ，参数为 0                                                                                                 |
-| feeLimit         | int64  | 是         | 参数为20,000,000                                                                                               |
-| gasPrice         | int64  | 是         | gas费，参数为200                                                                                                 |
-| nonce            | int64  | 是         | nonce  需要从链上获取，参照接口6.11                                                                                     |
-| input            | string | 是         | 待触发的合约的main()入参，为调用上链交易接口的入参数<br/>销毁数字资产"input":{"{\"function\":\"burn(string)\",\"args\":\"'tokenBid'\"}"} |
+| **字段名**       | **类型** | **是否必填 ** | **描述**                                                     |
+| ---------------- | -------- | ------------- | ------------------------------------------------------------ |
+| senderAddress    | string   | 是            | 交易源账号，即交易的发起方                                   |
+| senderPrivateKey | string   | 是            | 交易源账户私钥                                               |
+| contractAddress  | string   | 是            | 合约账户地址xxxxxxxxx                                        |
+| bifAmount        | int64    | 是            | 转账金额 ，参数为 0                                          |
+| feeLimit         | int64    | 是            | 参数为20,000,000                                             |
+| gasPrice         | int64    | 是            | gas费，参数为200                                             |
+| nonce            | int64    | 是            | nonce  需要从链上获取，参照接口6.11                          |
+| input            | string   | 是            | 待触发的合约的main()入参，为调用上链交易接口的入参数<br/>销毁数字资产"input":{"{\"function\":\"burn(string)\",\"args\":\"'tokenBid'\"}"} |
 
 input参数
 
-| **字段名**  | **类型** | **是否必填** | **描述**                                        |
-| -------- | ------ | -------- | --------------------------------------------- |
-| tokenBid | string | 是        | 数字资产bid，每个数字资产绑定一个主链bid作为唯一识别。调用星火链网接口获取主链bid |
+| **字段名** | **类型** | **是否必填** | **描述**                                                     |
+| ---------- | -------- | ------------ | ------------------------------------------------------------ |
+| tokenBid   | string   | 是           | 数字资产bid，每个数字资产绑定一个主链bid作为唯一识别。调用星火链网接口获取主链bid |
 
 **响应参数**
 
@@ -392,7 +405,7 @@ input参数
 **请求示例：**
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-4.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-4.png" width="100%" width="100%">
 </center>
 
 **请求体：**
@@ -424,7 +437,7 @@ input参数
 }
 ```
 
-#### 4.5 **激活用户账户**
+#### 4.5 激活用户账户
 
 ```http
 https://{url}/registration/api/v2/account/upload
@@ -463,13 +476,12 @@ https://{url}/registration/api/v2/account/upload
 **请求示例：**
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-5.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-5.png" width="100%" width="100%">
 </center>
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-6.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-6.png" width="100%" width="100%">
 </center>
-
 **请求体:**
 
 ```json
@@ -539,11 +551,11 @@ https://{url}/registration/api/v2/series/add
 **请求示例：**
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-17.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-17.png" width="100%" width="100%">
 </center>
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-18.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-18.png" width="100%" width="100%">
 </center>
 
 **请求体:**
@@ -615,7 +627,7 @@ Data结构如下:
 **请求示例：**
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-19.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-19.png" width="100%" width="100%">
 </center>
 
 **响应示例：**
@@ -678,11 +690,11 @@ https://{url}/registration/api/v2/series/{seriesId}
 **请求示例：**
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-20.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-20.png" width="100%" width="100%">
 </center>
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-21.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-21.png" width="100%" width="100%">
 </center>
 
 **响应示例：**
@@ -736,29 +748,29 @@ https://{url}//registration/api/v2/:seriesId/dna
 
 Data结构如下:
 
-| **字段名**     | **类型** | **是否必填 ** | **描述**                                    |
-| ----------- | ------ | --------- | ----------------------------------------- |
-| seriesId    | string | 是         | 集合ID                                      |
-| dnaName     | string | 是         | 数字资产名称，不超过50个字符                           |
-| dnaNumber   | string | 是         | 数字资产编号，集合内不重复                             |
-| dnaDes      | string | 是         | 数字资产描述，不超过200个字符                          |
-| url         | string | 是         | 数字资产 url，**建议尺寸**：350px*350px             |
-| hash        | string | 是         | 数字资产的hash值，建议采用sha256算法                   |
-| displayUrl  | string | 是         | 数字资产缩略图url，**建议尺寸**：85px*85px             |
-| dnaPrice    | number | 是         | 数字资产价格,单位：元（人民币）                          |
-| dnaCategory | string | 是         | 资产类型：图片、音频、视频、品牌、会员资格、域名、社交、音乐、艺术品、PFP、3D |
-| extension   | string | 是         | 扩展字段，用户自定义，长度不超过1024个字符                   |
-| tokenBid    | string | 是         | 数字资产bid                                   |
-| createTime  | string | 是         | 创建时间                                      |
+| **字段名**  | **类型** | **是否必填** | **描述**                                                     |
+| ----------- | -------- | ------------ | ------------------------------------------------------------ |
+| seriesId    | string   | 是           | 集合ID                                                       |
+| dnaName     | string   | 是           | 数字资产名称，不超过50个字符                                 |
+| dnaNumber   | string   | 是           | 数字资产编号，集合内不重复                                   |
+| dnaDes      | string   | 是           | 数字资产描述，不超过200个字符                                |
+| url         | string   | 是           | 数字资产 url，**建议尺寸**：350px*350px                      |
+| hash        | string   | 是           | 数字资产的hash值，建议采用sha256算法                         |
+| displayUrl  | string   | 是           | 数字资产缩略图url，**建议尺寸**：85px*85px                   |
+| dnaPrice    | number   | 是           | 数字资产价格,单位：元（人民币）                              |
+| dnaCategory | string   | 是           | 资产类型：图片、音频、视频、品牌、会员资格、域名、社交、音乐、艺术品、PFP、3D |
+| extension   | string   | 是           | 扩展字段，用户自定义，长度不超过1024个字符                   |
+| tokenBid    | string   | 是           | 数字资产bid                                                  |
+| createTime  | string   | 是           | 创建时间                                                     |
 
 **请求示例：**
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-22.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-22.png" width="100%" width="100%">
 </center>
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-23.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-23.png" width="100%" width="100%">
 </center>
 
 **响应示例：**
@@ -807,19 +819,19 @@ https://{url}/registration/api/v2/chain/mintDNA
 
 **请求参数**
 
-| **字段名**     | **类型** | **是否必填       ** | **描述**                                    |
-| ----------- | ------ | --------------- | ----------------------------------------- |
-| seriesId    | string | 是               | 集合ID                                      |
-| dnaName     | string | 是               | 数字资产名称，不超过50个字符                           |
-| dnaNumber   | string | 是               | 数字资产编号，集合内不重复                             |
-| dnaDes      | string | 否               | 数字资产描述，不超过200个字符                          |
-| url         | string | 是               | 数字资产 url，**建议尺寸**：350px*350px             |
-| hash        | string | 是               | 数字资产的hash值，建议采用sha256算法                   |
-| displayUrl  | string | 是               | 数字资产缩略图url，**建议尺寸**：85px*85px             |
-| toBid       | string | 是               | 用户数字资产持有者地址                               |
-| dnaPrice    | number | 是               | 数字资产价格,单位：元（人民币）                          |
-| dnaCategory | string | 是               | 资产类型：图片、音频、视频、品牌、会员资格、域名、社交、音乐、艺术品、PFP、3D |
-| extension   | string | 否               | 扩展字段，用户自定义，长度不超过1024个字符                   |
+| **字段名**  | **类型** | **是否必填** | **描述**                                                     |
+| ----------- | -------- | ------------ | ------------------------------------------------------------ |
+| seriesId    | string   | 是           | 集合ID                                                       |
+| dnaName     | string   | 是           | 数字资产名称，不超过50个字符                                 |
+| dnaNumber   | string   | 是           | 数字资产编号，集合内不重复                                   |
+| dnaDes      | string   | 否           | 数字资产描述，不超过200个字符                                |
+| url         | string   | 是           | 数字资产 url，**建议尺寸**：350px*350px                      |
+| hash        | string   | 是           | 数字资产的hash值，建议采用sha256算法                         |
+| displayUrl  | string   | 是           | 数字资产缩略图url，**建议尺寸**：85px*85px                   |
+| toBid       | string   | 是           | 用户数字资产持有者地址                                       |
+| dnaPrice    | number   | 是           | 数字资产价格,单位：元（人民币）                              |
+| dnaCategory | string   | 是           | 资产类型：图片、音频、视频、品牌、会员资格、域名、社交、音乐、艺术品、PFP、3D |
+| extension   | string   | 否           | 扩展字段，用户自定义，长度不超过1024个字符                   |
 
 **响应参数**
 
@@ -832,11 +844,11 @@ https://{url}/registration/api/v2/chain/mintDNA
 **请求示例：**
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-24.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-24.png" width="100%" width="100%">
 </center>
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-25.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-25.png" width="100%" width="100%">
 </center>
 
 **请求体：**
@@ -891,19 +903,19 @@ https://{url}/registration/api/v2/chain/batchMintDNA
 
 Data结构如下:    
 
-| **字段名**     | **类型** | **是否必填 ** | **描述**                                    |
-| ----------- | ------ | --------- | ----------------------------------------- |
-| seriesId    | string | 是         | 集合ID                                      |
-| dnaName     | string | 是         | 数字资产名称，不超过50个字符                           |
-| dnaNumber   | string | 是         | 数字资产编号，集合内不重复                             |
-| dnaDes      | string | 否         | 数字资产描述，不超过200个字符                          |
-| url         | string | 是         | 数字资产 url，建议尺寸：350px*350px                 |
-| hash        | string | 是         | 数字资产图片哈希值                                 |
-| displayUrl  | string | 是         | 数字资产缩略图url，建议尺寸：85px*85px                 |
-| toBid       | string | 是         | 用户数字资产持有者地址                               |
-| dnaPrice    | number | 是         | 数字资产价格，小数点后保留2位,单位：元（人民币）                 |
-| dnaCategory | string | 是         | 资产类型：图片、音频、视频、品牌、会员资格、域名、社交、音乐、艺术品、PFP、3D |
-| extension   | string | 否         | 扩展字段，用户自定义，长度不超过1024个字符                   |
+| **字段名**  | **类型** | **是否必填 ** | **描述**                                                     |
+| ----------- | -------- | ------------- | ------------------------------------------------------------ |
+| seriesId    | string   | 是            | 集合ID                                                       |
+| dnaName     | string   | 是            | 数字资产名称，不超过50个字符                                 |
+| dnaNumber   | string   | 是            | 数字资产编号，集合内不重复                                   |
+| dnaDes      | string   | 否            | 数字资产描述，不超过200个字符                                |
+| url         | string   | 是            | 数字资产 url，建议尺寸：350px*350px                          |
+| hash        | string   | 是            | 数字资产图片哈希值                                           |
+| displayUrl  | string   | 是            | 数字资产缩略图url，建议尺寸：85px*85px                       |
+| toBid       | string   | 是            | 用户数字资产持有者地址                                       |
+| dnaPrice    | number   | 是            | 数字资产价格，小数点后保留2位,单位：元（人民币）             |
+| dnaCategory | string   | 是            | 资产类型：图片、音频、视频、品牌、会员资格、域名、社交、音乐、艺术品、PFP、3D |
+| extension   | string   | 否            | 扩展字段，用户自定义，长度不超过1024个字符                   |
 
 **响应参数**
 
@@ -916,11 +928,11 @@ Data结构如下:
 **请求示例：**
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-26.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-26.png" width="100%" width="100%">
 </center>
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-27.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-27.png" width="100%" width="100%">
 </center>
 
 **请求体：**
@@ -986,14 +998,14 @@ https://{url}/registration/api/v2/chain/transferDNA
 
 **请求参数**
 
-| **字段名**       | **类型** | **是否必填 ** | **描述**                                        |
-| ------------- | ------ | --------- | --------------------------------------------- |
-| tokenBid      | string | 是         | 数字资产bid，每个数字资产绑定一个主链bid作为唯一识别。调用星火链网接口获取主链bid |
-| fromBid       | string | 是         | 用户数字资产持有者地址,保证都是应用下的账户                        |
-| toBid         | string | 是         | 用户接收数字资产的地址，保证都是应用下的账户                        |
-| serialization | string | 是         | 序列化的交易数据，通过调用4.3接口获取                          |
-| signData      | string | 是         | 交易签名数据，通过调用4.3接口获取                            |
-| publicKey     | string | 是         | 公钥，通过调用4.3接口获取                                |
+| **字段名**    | **类型** | **是否必填** | **描述**                                                     |
+| ------------- | -------- | ------------ | ------------------------------------------------------------ |
+| tokenBid      | string   | 是           | 数字资产bid，每个数字资产绑定一个主链bid作为唯一识别。调用星火链网接口获取主链bid |
+| fromBid       | string   | 是           | 用户数字资产持有者地址,保证都是应用下的账户                  |
+| toBid         | string   | 是           | 用户接收数字资产的地址，保证都是应用下的账户                 |
+| serialization | string   | 是           | 序列化的交易数据，通过调用4.3接口获取                        |
+| signData      | string   | 是           | 交易签名数据，通过调用4.3接口获取                            |
+| publicKey     | string   | 是           | 公钥，通过调用4.3接口获取                                    |
 
 **响应参数**
 
@@ -1006,12 +1018,13 @@ https://{url}/registration/api/v2/chain/transferDNA
 **请求示例：**
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-28.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-28.png" width="100%" width="100%">
 </center>
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-29.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-29.png" width="100%" width="100%">
 </center>
+
 
 **请求体：**
 
@@ -1054,13 +1067,13 @@ https://{url}/registration/api/v2/chain/burnDNA
 
 **请求参数**
 
-| **字段名**       | **类型** | **是否必填  ** | **描述**                                        |
-| ------------- | ------ | ---------- | --------------------------------------------- |
-| tokenBid      | string | 是          | 数字资产bid，每个数字资产绑定一个主链bid作为唯一识别。调用星火链网接口获取主链bid |
-| fromBid       | string | 是          | 用户数字资产持有者地址                                   |
-| serialization | string | 是          | 序列化的交易数据                                      |
-| signData      | string | 是          | 交易签名数据                                        |
-| publicKey     | string | 是          | 公钥                                            |
+| **字段名**    | **类型** | **是否必填** | **描述**                                                     |
+| ------------- | -------- | ------------ | ------------------------------------------------------------ |
+| tokenBid      | string   | 是           | 数字资产bid，每个数字资产绑定一个主链bid作为唯一识别。调用星火链网接口获取主链bid |
+| fromBid       | string   | 是           | 用户数字资产持有者地址                                       |
+| serialization | string   | 是           | 序列化的交易数据                                             |
+| signData      | string   | 是           | 交易签名数据                                                 |
+| publicKey     | string   | 是           | 公钥                                                         |
 
 **响应参数**
 
@@ -1073,11 +1086,11 @@ https://{url}/registration/api/v2/chain/burnDNA
 **请求示例：**
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-30.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-30.png" width="100%" width="100%">
 </center>
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-31.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-31.png" width="100%" width="100%">
 </center>
 
 **请求体：**
@@ -1137,30 +1150,31 @@ https://{url}/registration/api/v2/dna/:userId
 
 Data结构如下:
 
-| **字段名**     | **类型** | **是否必填 ** | **描述**                                    |
-| ----------- | ------ | --------- | ----------------------------------------- |
-| seriesId    | string | 是         | 集合ID                                      |
-| dnaName     | string | 是         | 数字资产名称，不超过50个字符                           |
-| dnaNumber   | string | 是         | 数字资产编号，集合内不重复                             |
-| dnaDes      | string | 是         | 数字资产描述，不超过200个字符                          |
-| url         | string | 是         | 数字资产 url，建议尺寸：350px*350px                 |
-| hash        | string | 是         | 数字资产图片哈希值                                 |
-| displayUrl  | string | 是         | 数字资产缩略图url，建议尺寸：85px*85px                 |
-| dnaPrice    | number | 是         | 数字资产价格                                    |
-| dnaCategory | string | 是         | 资产类型：图片、音频、视频、品牌、会员资格、域名、社交、音乐、艺术品、PFP、3D |
-| extension   | string | 是         | 扩展字段，用户自定义，长度不超过1024个字符                   |
-| tokenBid    | string | 是         | 数字资产bid                                   |
-| createTime  | string | 是         | 创建时间                                      |
+| **字段名**  | **类型** | **是否必填** | **描述**                                                     |
+| ----------- | -------- | ------------ | ------------------------------------------------------------ |
+| seriesId    | string   | 是           | 集合ID                                                       |
+| dnaName     | string   | 是           | 数字资产名称，不超过50个字符                                 |
+| dnaNumber   | string   | 是           | 数字资产编号，集合内不重复                                   |
+| dnaDes      | string   | 是           | 数字资产描述，不超过200个字符                                |
+| url         | string   | 是           | 数字资产 url，建议尺寸：350px*350px                          |
+| hash        | string   | 是           | 数字资产图片哈希值                                           |
+| displayUrl  | string   | 是           | 数字资产缩略图url，建议尺寸：85px*85px                       |
+| dnaPrice    | number   | 是           | 数字资产价格                                                 |
+| dnaCategory | string   | 是           | 资产类型：图片、音频、视频、品牌、会员资格、域名、社交、音乐、艺术品、PFP、3D |
+| extension   | string   | 是           | 扩展字段，用户自定义，长度不超过1024个字符                   |
+| tokenBid    | string   | 是           | 数字资产bid                                                  |
+| createTime  | string   | 是           | 创建时间                                                     |
 
 **请求示例：**
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-32.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-32.png" width="100%" width="100%">
 </center>
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-33.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-33.png" width="100%" width="100%">
 </center>
+
 
  **响应示例：**
 
@@ -1220,30 +1234,31 @@ https://{url}/registration/api/v2/dnaDetail?tokenBid
 
 Data结构如下：
 
-| **字段名**     | **类型** | **是否必填** | **描述**                                    |
-| ----------- | ------ | -------- | ----------------------------------------- |
-| seriesId    | string | 是        | 集合ID                                      |
-| dnaName     | string | 是        | 数字资产名称，不超过50个字符                           |
-| dnaNumber   | string | 是        | 数字资产编号，集合内不重复                             |
-| dnaDes      | string | 是        | 数字资产描述，不超过500个字符                          |
-| url         | string | 是        | 数字资产 url，建议尺寸：350px*350px                 |
-| hash        | string | 是        | 数字资产图片哈希值                                 |
-| displayUrl  | string | 是        | 数字资产缩略图url，建议尺寸：85px*85px                 |
-| dnaPrice    | number | 是        | 数字资产价格                                    |
-| dnaCategory | string | 是        | 资产类型：图片、音频、视频、品牌、会员资格、域名、社交、音乐、艺术品、PFP、3D |
-| extension   | string | 是        | 扩展字段，用户自定义，长度不超过1024个字符                   |
-| tokenBid    | string | 是        | 数字资产bid                                   |
-| createTime  | string | 是        | 创建时间                                      |
+| **字段名**  | **类型** | **是否必填** | **描述**                                                     |
+| ----------- | -------- | ------------ | ------------------------------------------------------------ |
+| seriesId    | string   | 是           | 集合ID                                                       |
+| dnaName     | string   | 是           | 数字资产名称，不超过50个字符                                 |
+| dnaNumber   | string   | 是           | 数字资产编号，集合内不重复                                   |
+| dnaDes      | string   | 是           | 数字资产描述，不超过500个字符                                |
+| url         | string   | 是           | 数字资产 url，建议尺寸：350px*350px                          |
+| hash        | string   | 是           | 数字资产图片哈希值                                           |
+| displayUrl  | string   | 是           | 数字资产缩略图url，建议尺寸：85px*85px                       |
+| dnaPrice    | number   | 是           | 数字资产价格                                                 |
+| dnaCategory | string   | 是           | 资产类型：图片、音频、视频、品牌、会员资格、域名、社交、音乐、艺术品、PFP、3D |
+| extension   | string   | 是           | 扩展字段，用户自定义，长度不超过1024个字符                   |
+| tokenBid    | string   | 是           | 数字资产bid                                                  |
+| createTime  | string   | 是           | 创建时间                                                     |
 
 **请求示例：**
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-34.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-34.png" width="100%" width="100%">
 </center>
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-35.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-35.png" width="100%" width="100%">
 </center>
+
 
 **响应示例：**
 
@@ -1316,12 +1331,13 @@ https://{url}/registration/api/v2/record/:tokenBid
 **请求示例：**
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-36.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-36.png" width="100%" width="100%">
 </center>
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-37.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-37.png" width="100%" width="100%">
 </center>
+
 
 响应参数：
 
@@ -1371,11 +1387,11 @@ https://{url}/registration/api/v2/chain/status
 
 **请求参数**
 
-| **字段名**  | **类型** | **是否必填 ** | **描述**                               |
-| -------- | ------ | --------- | ------------------------------------ |
-| tokenBid | string | 是         | 数据资产bid（或者数字资产对应主链上账户身份）             |
-| type     | number | 是         | 1 注册资产 2 转移资产 3 销毁资产                 |
-| txHash   | string | 是         | 对应注册，转移，销毁资产返回的交易hash，该字段可通过6.10接口获取 |
+| **字段名** | **类型** | **是否必填 ** | **描述**                                                     |
+| ---------- | -------- | ------------- | ------------------------------------------------------------ |
+| tokenBid   | string   | 是            | 数据资产bid（或者数字资产对应主链上账户身份）                |
+| type       | number   | 是            | 1 注册资产 2 转移资产 3 销毁资产                             |
+| txHash     | string   | 是            | 对应注册，转移，销毁资产返回的交易hash，该字段可通过6.10接口获取 |
 
 **响应参数**
 
@@ -1388,11 +1404,11 @@ https://{url}/registration/api/v2/chain/status
 **示例：**
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-38.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-38.png" width="100%" width="100%">
 </center>
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-39.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-39.png" width="100%" width="100%">
 </center>
 
 **响应示例**
@@ -1438,11 +1454,11 @@ https://{url}/registration/api/v2/chain/tokenOwnerOf/{tokenBid}
 **请求示例：**
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-40.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-40.png" width="100%" width="100%">
 </center>
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-41.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-41.png" width="100%" width="100%">
 </center>
 
 **响应示例：**
@@ -1505,11 +1521,11 @@ info 结构如下:
 **请求示例：**
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-42.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-42.png" width="100%" width="100%">
 </center>
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-43.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-43.png" width="100%" width="100%">
 </center>
 
 **响应示例：**
@@ -1566,11 +1582,11 @@ https://{url}/registration/api/v2/chain/nonce
 **请求示例：**
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-44.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-44.png" width="100%" width="100%">
 </center>
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-45.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-45.png" width="100%" width="100%">
 </center>
 
 **响应示例**
@@ -1612,32 +1628,37 @@ accessToken需要应用方通过apiKey和apiSecret调用相关平台接口获得
 创建企业的星火账户
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/创建企业的星火账户.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/创建企业的星火账户.png" width="100%" width="100%">
 </center>
+
 
 获取accessToken
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/获取access token.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/获取access token.png" width="100%" width="100%">
 </center>
+
 
 创建用户的星火账户
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/创建用户的星火账户.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/创建用户的星火账户.png" width="100%" width="100%">
 </center>
+
 
 创建数字资产集合
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/创建数字资产集合.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/创建数字资产集合.png" width="100%" width="100%">
 </center>
+
 
 转移/销毁数字资产
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/转移或销毁数字资产.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/转移或销毁数字资产.png" width="100%" width="100%">
 </center>
+
 
 ### 四、接口认证及账户管理
 
@@ -1669,7 +1690,7 @@ https://{{url}}/registration/api/v2/getToken
 **请求示例：**
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/认证图-1.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/认证图-1.png" width="100%" width="100%">
 </center>
 
 **响应示例：**
@@ -1714,7 +1735,7 @@ http://localhost:8888/bifApi/v1/createAddress
 **请求示例：**
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-2.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-2.png" width="100%" width="100%">
 </center>
 
 **请求体:**
@@ -1753,24 +1774,24 @@ http://localhost:8888/bifApi/v1/contract
 
 **请求参数**
 
-| **字段名**          | **类型** | **是否必填 ** | **描述**                                                                                                                                                       |
-| ---------------- | ------ | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| senderAddress    | string | 是         | 交易源账号，即交易的发起方                                                                                                                                                |
-| senderPrivateKey | string | 是         | 交易源账户私钥                                                                                                                                                      |
-| contractAddress  | string | 是         | 合约账户地址xxxxxxxxx                                                                                                                                              |
-| bifAmount        | int64  | 是         | 转账金额 ，参数为 0                                                                                                                                                  |
-| feeLimit         | int64  | 是         | 参数为20,000,000                                                                                                                                                |
-| gasPrice         | int64  | 是         | gas费，参数为200                                                                                                                                                  |
-| nonce            | int64  | 是         | nonce  需要从链上获取，参照接口4.6获取当前地址nonce值                                                                                                                           |
-| input            | string | 是         | 待触发的合约的main()入参，为调用上链交易接口的入参数<br/>转移数字资产"input":{"{\"function\":\"safeTransferFrom(address,address,string)\",\"args\":\"fromAddress,toAddress,'tokenBid'\"}} |
+| **字段名**       | **类型** | **是否必填** | **描述**                                                     |
+| ---------------- | -------- | ------------ | ------------------------------------------------------------ |
+| senderAddress    | string   | 是           | 交易源账号，即交易的发起方                                   |
+| senderPrivateKey | string   | 是           | 交易源账户私钥                                               |
+| contractAddress  | string   | 是           | 合约账户地址xxxxxxxxx                                        |
+| bifAmount        | int64    | 是           | 转账金额 ，参数为 0                                          |
+| feeLimit         | int64    | 是           | 参数为20,000,000                                             |
+| gasPrice         | int64    | 是           | gas费，参数为200                                             |
+| nonce            | int64    | 是           | nonce  需要从链上获取，参照接口4.6获取当前地址nonce值        |
+| input            | string   | 是           | 待触发的合约的main()入参，为调用上链交易接口的入参数<br/>转移数字资产"input":{"{\"function\":\"safeTransferFrom(address,address,string)\",\"args\":\"fromAddress,toAddress,'tokenBid'\"}} |
 
 **input参数**
 
-| **字段名**     | **类型** | **是否必填 ** | **描述**                                        |
-| ----------- | ------ | --------- | --------------------------------------------- |
-| fromAddress | string | 是         | 用户数字资产持有者地址,保证都是应用下的账户                        |
-| tokenBid    | string | 是         | 数字资产bid，每个数字资产绑定一个主链bid作为唯一识别。调用星火链网接口获取主链bid |
-| toAddress   | string | 是         | 用户接收数字资产的地址，保证都是应用下的账户                        |
+| **字段名**  | **类型** | **是否必填 ** | **描述**                                                     |
+| ----------- | -------- | ------------- | ------------------------------------------------------------ |
+| fromAddress | string   | 是            | 用户数字资产持有者地址,保证都是应用下的账户                  |
+| tokenBid    | string   | 是            | 数字资产bid，每个数字资产绑定一个主链bid作为唯一识别。调用星火链网接口获取主链bid |
+| toAddress   | string   | 是            | 用户接收数字资产的地址，保证都是应用下的账户                 |
 
 **响应参数**
 
@@ -1786,7 +1807,7 @@ http://localhost:8888/bifApi/v1/contract
 **请求示例：**
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-3.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-3.png" width="100%" width="100%">
 </center>
 
 **请求体：**
@@ -1832,22 +1853,22 @@ http://localhost:8888/bifApi/v1/contract
 
 **请求参数**
 
-| **字段名**          | **类型** | **是否必填 ** | **描述**                                                                                                      |
-| ---------------- | ------ | --------- | ----------------------------------------------------------------------------------------------------------- |
-| senderAddress    | string | 是         | 交易源账号，即交易的发起方                                                                                               |
-| senderPrivateKey | string | 是         | 交易源账户私钥                                                                                                     |
-| contractAddress  | string | 是         | 合约账户地址xxxxxxxxx                                                                                             |
-| bifAmount        | int64  | 是         | 转账金额 ，参数为 0                                                                                                 |
-| feeLimit         | int64  | 是         | 参数为20,000,000                                                                                               |
-| gasPrice         | int64  | 是         | gas费，参数为200                                                                                                 |
-| nonce            | int64  | 是         | nonce  需要从链上获取，参照接口4.6获取当前地址nonce值                                                                          |
-| input            | string | 是         | 待触发的合约的main()入参，为调用上链交易接口的入参数<br/>销毁数字资产"input":{"{\"function\":\"burn(string)\",\"args\":\"'tokenBid'\"}"} |
+| **字段名**       | **类型** | **是否必填 ** | **描述**                                                     |
+| ---------------- | -------- | ------------- | ------------------------------------------------------------ |
+| senderAddress    | string   | 是            | 交易源账号，即交易的发起方                                   |
+| senderPrivateKey | string   | 是            | 交易源账户私钥                                               |
+| contractAddress  | string   | 是            | 合约账户地址xxxxxxxxx                                        |
+| bifAmount        | int64    | 是            | 转账金额 ，参数为 0                                          |
+| feeLimit         | int64    | 是            | 参数为20,000,000                                             |
+| gasPrice         | int64    | 是            | gas费，参数为200                                             |
+| nonce            | int64    | 是            | nonce  需要从链上获取，参照接口4.6获取当前地址nonce值        |
+| input            | string   | 是            | 待触发的合约的main()入参，为调用上链交易接口的入参数<br/>销毁数字资产"input":{"{\"function\":\"burn(string)\",\"args\":\"'tokenBid'\"}"} |
 
 input参数
 
-| **字段名**  | **类型** | **是否必填 ** | **描述**                                        |
-| -------- | ------ | --------- | --------------------------------------------- |
-| tokenBid | string | 是         | 数字资产bid，每个数字资产绑定一个主链bid作为唯一识别。调用星火链网接口获取主链bid |
+| **字段名** | **类型** | **是否必填 ** | **描述**                                                     |
+| ---------- | -------- | ------------- | ------------------------------------------------------------ |
+| tokenBid   | string   | 是            | 数字资产bid，每个数字资产绑定一个主链bid作为唯一识别。调用星火链网接口获取主链bid |
 
 **响应参数**
 
@@ -1863,7 +1884,7 @@ input参数
 **请求示例：**
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-4.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-4.png" width="100%" width="100%">
 </center>
 
 **请求体：**
@@ -1895,7 +1916,7 @@ input参数
 }
 ```
 
-#### 4.5 **激活用户账户**
+#### 4.5 激活用户账户
 
 ```http
 https://{url}/registration/api/v2/account/upload
@@ -1934,12 +1955,13 @@ https://{url}/registration/api/v2/account/upload
 **请求示例：**
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-5.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-5.png" width="100%" width="100%">
 </center>
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-6.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-6.png" width="100%" width="100%">
 </center>
+
 
 **请求体:**
 
@@ -1971,7 +1993,7 @@ https://{url}/registration/api/v2/account/upload
 }
 ```
 
-#### **4.6 获取当前地址nonce值**
+#### 4.6 获取当前地址nonce值
 
 ```http
 https://{url}/registration/api/v2/chain/nonce
@@ -2004,11 +2026,11 @@ https://{url}/registration/api/v2/chain/nonce
 **请求示例：**
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-7.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-7.png" width="100%" width="100%">
 </center>
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-8.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-8.png" width="100%" width="100%">
 </center>
 
 **响应示例**
@@ -2082,11 +2104,11 @@ Data结构如下:
 **请求示例：**
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-9.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-9.png" width="100%" width="100%">
 </center>
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-10.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-10.png" width="100%" width="100%">
 </center>
 
 **请求体：**
@@ -2140,21 +2162,21 @@ https://{url}/auth/api/v1/dna
 
 Data结构如下:
 
-| **字段名**    | **类型** | **是否必填 ** | **描述**                                  |
-| ---------- | ------ | --------- | --------------------------------------- |
-| seriesId   | String | 是         | 资产所属集合id或子集合id                          |
-| dnaName    | String | 是         | 数字资产名称                                  |
-| dnaNumber  | String | 是         | 数字资产的编号                                 |
-| tokenBid   | String | 是         | 数字资产Bid                                 |
-| dnaDes     | String | 否         | 数字资产描述说明                                |
-| dnaType    | string | 是         | 数字资产类型，0-图片、1-视频、2-音频                   |
-| url        | String | 是         | 数字资产图像的url,建议使用350px*350px的图像,需支持开放访问   |
-| displayUrl | String | 是         | 数字资产缩略图URL，建议尺寸85px*85px，需支持开放访问        |
-| hash       | String | 是         | 数字资产图片哈希值                               |
-| mintTime   | String | 是         | 数字资产链上mint交易时间                          |
-| owner      | String | 是         | 数字资产所有者，指账户地址；数字资产发生相关交易后，平台更新维护owner信息 |
-| dnaPrice   | Number | 是         | 数字资产发行价格                                |
-| extension  | String | 否         | 扩展字段，用户自定义，长度不超过1024个字符                 |
+| **字段名** | **类型** | **是否必填 ** | **描述**                                                     |
+| ---------- | -------- | ------------- | ------------------------------------------------------------ |
+| seriesId   | String   | 是            | 资产所属集合id或子集合id                                     |
+| dnaName    | String   | 是            | 数字资产名称                                                 |
+| dnaNumber  | String   | 是            | 数字资产的编号                                               |
+| tokenBid   | String   | 是            | 数字资产Bid                                                  |
+| dnaDes     | String   | 否            | 数字资产描述说明                                             |
+| dnaType    | string   | 是            | 数字资产类型，0-图片、1-视频、2-音频                         |
+| url        | String   | 是            | 数字资产图像的url,建议使用350px*350px的图像,需支持开放访问   |
+| displayUrl | String   | 是            | 数字资产缩略图URL，建议尺寸85px*85px，需支持开放访问         |
+| hash       | String   | 是            | 数字资产图片哈希值                                           |
+| mintTime   | String   | 是            | 数字资产链上mint交易时间                                     |
+| owner      | String   | 是            | 数字资产所有者，指账户地址；数字资产发生相关交易后，平台更新维护owner信息 |
+| dnaPrice   | Number   | 是            | 数字资产发行价格                                             |
+| extension  | String   | 否            | 扩展字段，用户自定义，长度不超过1024个字符                   |
 
 **响应参数**
 
@@ -2166,11 +2188,11 @@ Data结构如下:
 **请求示例：**
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-11.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-11.png" width="100%" width="100%">
 </center>
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-12.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-12.png" width="100%" width="100%">
 </center>
 
 **请求体：**
@@ -2248,11 +2270,11 @@ Data结构如下:
 **请求示例：**
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-13.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-13.png" width="100%" width="100%">
 </center>
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-14.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-14.png" width="100%" width="100%">
 </center>
 
 **请求体：**
@@ -2321,11 +2343,11 @@ Data结构如下:
 **请求示例：**
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-15.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-15.png" width="100%" width="100%">
 </center>
 
 <center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-16.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-16.png" width="100%" width="100%">
 </center>
 
 **请求体：**
@@ -2356,7 +2378,7 @@ Data结构如下:
 
 ### 一、API接口
 
-#### **1.1 上链失败**
+#### 1.1 上链失败
 
 可能原因：
 
@@ -2366,7 +2388,7 @@ Data结构如下:
 
 3）nonce值设置低于链上nonce值。措施：一般一笔交易提交3~4s后，获取链上地址nonce，并再次提交交易。链上非常拥堵时，可设置为10s。
 
-#### **1.2 激活问题**
+#### 1.2 激活问题
 
 业务需要全部激活：
 
@@ -2376,16 +2398,16 @@ Data结构如下:
 
 **备注：后台自动维护星火令，用户无需过多关注这个场景，交易失败重试即可解决。**
 
-#### **1.3 接口报错**
+#### 1.3 接口报错
 
 根据提示处理。
 
 ### 二、DNA注册认证平台
 
-#### **1.1 业务初始化失败**
+#### 2.1 业务初始化失败
 
 原因DNA注册认证平台主账号星火令不足，联系技术人员补充星火令。
 
-#### **1.2 修改应用名**
+#### 2.2 修改应用名
 
 用户可编辑应用名冲新提交审核。

@@ -4,22 +4,23 @@
 
 ---
 
-&ensp;&ensp;&ensp;&ensp;DNA（Digitial Native Assets，数字原生资产）浏览器面向链上资产数据查询的场景，基于星火链网主链充分运用大数据、区块链、NFT技术，实现新华、光明、爱奇艺等九家平台的数字资产解析，支持数字资产核验，平台运营统计、集合交易查询、藏品历史记录查询等数字原生资产服务。
+DNA（Digitial Native Assets，数字原生资产）浏览器面向链上资产数据查询的场景，基于星火链网主链充分运用大数据、区块链、NFT技术，实现新华、光明、爱奇艺等九家平台的数字资产解析，支持数字资产核验，平台运营统计、集合交易查询、藏品历史记录查询等数字原生资产服务。
 
 <center>
-<img src="./docs/数字原生资产服务/DNA浏览器/image/产品概述图片【DNA浏览器】-1.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA浏览器/image/产品概述图片【DNA浏览器】-1.png" width="100%" width="100%">
 </center>
+
 
 DNA浏览器官网PC端 正式网：https://dnascan.bitfactory.cn/ ； 测试网：https://test-dnascan.bitfactory.cn/ ；
 
 DNA浏览器H5 正式网：https://dnascan-h5.bitfactory.cn/; 测试网：https://dnascan-h5.bitfactory.cn/。
 
-### 二、应用场景
+### 一、应用场景
 
 - 查看数藏平台和集合：通过首页用户可以总览数藏平台的运营情况，包括：平台资产数量、持有资产地址数和累计发行情况等；通过查看平台的集合的发售详情，了解藏品的发行量、发行市场和用户购买情况等。
 - 查询和核验数字藏品：通过查询数字藏品BID和账号BID，用户可以知道藏品的权属情况，核验藏品是否上链。
 
-### 三、主要功能
+### 二、主要功能
 
 - 平台运营统计：查看各个数藏平台的DNA业务运营情况。
 - 数字资产查询：输入BID地址或者资产BID，检索数字藏品的上链情况。
@@ -27,7 +28,7 @@ DNA浏览器H5 正式网：https://dnascan-h5.bitfactory.cn/; 测试网：https:
 - 历史记录查询：查看单个数字藏品的历史交易记录。
 - 账号资产查询：查看BID地址拥有的链上资产情况。
 
-### 四、产品特点
+### 三、产品特点
 
 - 实时链上解析：围绕数藏平台、资产集合、用户地址、资产编号等实现链上实时的数据解析，以便用户及时核验资产链上详情。
 - 统一资产标准：基于数字资产链上协议，帮助链上数据规范管理，提供注册和认证两种查询方式，实现主链和子链之间的价值流动。
@@ -41,50 +42,57 @@ DNA浏览器H5 正式网：https://dnascan-h5.bitfactory.cn/; 测试网：https:
 和DNA BID：did:bid:ef9BnLBTWf8SnRw3gHeG17vvKiuE9QLC。
 
 <center>
-<img src="./docs/数字原生资产服务/DNA浏览器/image/使用手册图片-1.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA浏览器/image/使用手册图片-1.png" width="100%" width="100%">
 </center>
+
 
 ### 二、查看数据总览
 
 <center>
-<img src="./docs/数字原生资产服务/DNA浏览器/image/使用手册图片-3.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA浏览器/image/使用手册图片-3.png" width="100%" width="100%">
 </center>
+
 
 ### 三、查看注册平台
 
 <center>
-<img src="./docs/数字原生资产服务/DNA浏览器/image/使用手册图片-4.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA浏览器/image/使用手册图片-4.png" width="100%" width="100%">
 </center>
+
 
 ### 四、查看认证平台
 
 <center>
-<img src="./docs/数字原生资产服务/DNA浏览器/image/使用手册图片-5.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA浏览器/image/使用手册图片-5.png" width="100%" width="100%">
 </center>
+
 
 ### 五、查看平台详情
 
 包括：平台基本信息、平台藏品总览和 应用平台DNA集合。
 
 <center>
-<img src="./docs/数字原生资产服务/DNA浏览器/image/使用手册图片-6.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA浏览器/image/使用手册图片-6.png" width="100%" width="100%">
 </center>
+
 
 ### 六、查看藏品集合交易列表
 
 点击数藏平台模块，再次点击数藏集合，展示某个集合的交易情况。
 
 <center>
-<img src="./docs/数字原生资产服务/DNA浏览器/image/使用手册图片-7.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA浏览器/image/使用手册图片-7.png" width="100%" width="100%">
 </center>
+
 
 ### 七、查看藏品详情
 
 点击数藏平台进入藏品详情，或者检索藏品BID进入详情，可查看单个藏品交易信息和链上藏品信息。
 
 <center>
-<img src="./docs/数字原生资产服务/DNA浏览器/image/使用手册图片-8.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA浏览器/image/使用手册图片-8.png" width="100%" width="100%">
 </center>
+
 
 ### 八、第三方应用调用账户资产查询方法
 
@@ -101,29 +109,32 @@ DNA浏览器H5 正式网：https://dnascan-h5.bitfactory.cn/; 测试网：https:
 登录https://dnascan.bitfactory.cn/数藏浏览器网址，进入首页关注总览/某个数藏平台的发行情况。
 
 <center>
-<img src="./docs/数字原生资产服务/DNA浏览器/image/常见问题图片-1.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA浏览器/image/常见问题图片-1.png" width="100%" width="100%">
 </center>
+
 
 ### 二、如何根据DNA BID查询数字藏品？
 
 登录https://dnascan.bitfactory.cn/数藏浏览器网址，进入首页搜索框，切换bid地址搜索，粘贴DNA BID查询即可，例如：did:bid:efxSpXQuM5RqdLJAc9omqHgB7i2fE84P。
 
 <center>
-<img src="./docs/数字原生资产服务/DNA浏览器/image/常见问题图片-2.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA浏览器/image/常见问题图片-2.png" width="100%" width="100%">
 </center>
 
 <center>
-<img src="./docs/数字原生资产服务/DNA浏览器/image/常见问题图片-3.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA浏览器/image/常见问题图片-3.png" width="100%" width="100%">
 </center>
+
 
 ### 三、如何根据账号BID 查询用户拥有数字藏品？
 
 登录https://dnascan.bitfactory.cn/数藏浏览器网址，进入首页搜索框，切换bid地址搜索，粘贴用户账号BID查询即可，例如：did:bid:efgd2jesh8m2JELgbPMHbAkw7H7sK4HV。
 
 <center>
-<img src="./docs/数字原生资产服务/DNA浏览器/image/常见问题图片-4.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA浏览器/image/常见问题图片-4.png" width="100%" width="100%">
 </center>
 
 <center>
-<img src="./docs/数字原生资产服务/DNA浏览器/image/常见问题图片-5.png" width="70%" width="70%">
+<img src="./docs/数字原生资产服务/DNA浏览器/image/常见问题图片-5.png" width="100%" width="100%">
 </center>
+
