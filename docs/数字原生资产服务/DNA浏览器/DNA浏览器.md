@@ -4,7 +4,7 @@
 
 ---
 
-[DNA浏览器](https://dnascan.bitfactory.cn/)（Digitial Native Assets，数字原生资产）面向`链上资产`数据查询的场景，基于`星火链网主链`充分运用`大数据`、`区块链`、`NFT技术`，实现新华网、光明网、爱奇艺等九家平台的数字资产解析，支持数字资产核验，平台运营统计、集合交易查询、藏品历史记录查询等数字原生资产服务。
+DNA浏览器 （Digitial Native Assets，数字原生资产）面向链上资产数据查询的场景，基于<font color=red>星火链网</font>主链充分运用<font color=red>大数据</font>、<font color=red>区块链</font>、<font color=red>NFT技术</font>，实现新华网、光明网、爱奇艺等九家平台的数字资产解析，支持数字资产核验，平台运营统计、集合交易查询、藏品历史记录查询等数字原生资产服务。
 
 <center>
 <img src="./docs/数字原生资产服务/DNA浏览器/image/产品概述图片【DNA浏览器】-1.png" width="100%" width="100%">
@@ -102,7 +102,7 @@
 
 ### 一、如何查询XX数藏平台的发行情况？
 
-登录[DNA浏览器](https://dnascan.bitfactory.cn/)官网，进入首页关注总览/某个数藏平台的发行情况。
+登录DNA浏览器官网，进入首页关注总览/某个数藏平台的发行情况。
 
 <center>
 <img src="./docs/数字原生资产服务/DNA浏览器/image/常见问题图片-1.png" width="100%" width="100%">
@@ -110,7 +110,7 @@
 
 ### 二、如何根据DNA BID查询数字藏品？
 
-登录[DNA浏览器](https://dnascan.bitfactory.cn/)官网，进入首页搜索框，切换BID地址搜索，粘贴DNA BID查询。
+登录DNA浏览器官网，进入首页搜索框，切换BID地址搜索，粘贴DNA BID查询。
 
 <center>
 <img src="./docs/数字原生资产服务/DNA浏览器/image/常见问题图片-2.png" width="100%" width="100%">
@@ -122,7 +122,7 @@
 
 ### 三、如何根据账号BID 查询用户拥有数字藏品？
 
-登录[DNA浏览器](https://dnascan.bitfactory.cn/)官网，进入首页搜索框，切换bid地址搜索，粘贴用户账号BID查询。
+登录DNA浏览器官网，进入首页搜索框，切换bid地址搜索，粘贴用户账号BID查询。
 
 <center>
 <img src="./docs/数字原生资产服务/DNA浏览器/image/常见问题图片-4.png" width="100%" width="100%">

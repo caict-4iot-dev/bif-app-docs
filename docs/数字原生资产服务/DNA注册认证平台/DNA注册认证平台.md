@@ -4,20 +4,19 @@
 
 ---
 
-[`DNA注册认证服务平台`](https://dna.bitfactory.cn/manage/#/login)面向资产数字化和数字化资产应用场景，充分运用`大数据`、`区块链`、`NFT技术`，构建的具备数字资产注册、确权认证、交易流通、资产管理、技术服务和监测监管等功能的数字资产公共服务网络。
+DNA注册认证服务平台面向资产数字化和数字化资产应用场景，充分运用大数据<font color=red>大数据</font>、<font color=red>区块链</font>、<font color=red>NFT技术</font>，构建的具备数字资产注册、确权认证、交易流通、资产管理、技术服务和监测监管等功能的数字资产公共服务网络。
 
 <center>
 <img src="./docs/数字原生资产服务/DNA注册认证平台/image/DNA注册认证平台图片【概述】-1.png" width="100%" width="100%">
-</center>
+</center>   
 
-[DNA注册认证服务平台正式网](https://dna.bitfactory.cn/manage/#/login)    
+> 访问地址：https://dna.bitfactory.cn
 
-[DNA注册认证服务平台测试网](https://test-dna.bitfactory.cn/manage/#/login)
 
 ### 一、应用场景
 
 - **申请注册认证业务：**用户通过注册认证平台提交申请材料，获得数藏注册和认证API接口权限。
-- **审核注册认证业务：**信通院审核平台方业务资质，完成应用审核和DNA资产备案审查。包括：`API权限审批`、`冻结`、`解冻`，`查验企业`和`DNA资产信息备案`情况等。
+- **审核注册认证业务：**信通院审核平台方业务资质，完成应用审核和DNA资产备案审查。包括：API权限审批、冻结、解冻，查验企业和DNA资产信息备案情况等。
 
 ### 二、主要功能
 
@@ -32,7 +31,7 @@
 - **链网协同：**基于星火·链网多链融合技术，各行业可根据业务需要定制其底层链网络，旨在面向全行业构建一套链网协同数字资产基础设施。
 - **监管认证：**基于星火·链网可信认证体系，对应用方和数字资产进行认证，纳入DNA统一监测监管体系，实行穿透式监管，保障资产安全。
 - **便捷易用：**围绕应用场景需求提供数字资产API服务和一站式行业解决方案，快速、便捷、低成本构建数字资产应用。
-- **生态共建：**依托`星火·链网`和`中关村区块链产业联盟`的伙伴生态，构建完整的数字资产产业链路，共建数字资产服务网络生态。
+- **生态共建：**依托星火·链网和中关村区块链产业联盟的伙伴生态，构建完整的数字资产产业链路，共建数字资产服务网络生态。
 
 ## 使用手册
 
@@ -48,7 +47,7 @@
 
 #### 1.1 创建星火账户及企业认证
 
-**安装星火通插件钱包**：通过星火通账户创建星火企业账户，并完成企业认证。具体操作指引详见[浏览器插件钱包](https://bif-doc.readthedocs.io/zh_CN/1.0.0/tools/wallet.html)章节。
+**安装星火通插件钱包**：通过星火通账户创建星火企业账户，并完成企业认证。具体操作指引详见[《星火通插件钱包》](https://caict-4iot-dev.github.io/bif-guide/#/docs/%E6%95%B0%E5%AD%97%E8%BA%AB%E4%BB%BD%E6%9C%8D%E5%8A%A1/%E6%98%9F%E7%81%AB%E9%80%9A%E6%8F%92%E4%BB%B6%E9%92%B1%E5%8C%85/%E6%98%9F%E7%81%AB%E9%80%9A%E6%8F%92%E4%BB%B6%E9%92%B1%E5%8C%85)章节。
 
 * 测试阶段：需要在**“星火测试网”**创建星火通账户并完成企业认证；
 * 主网阶段：需要重新在**“星火主网”**创建星火通账户并完成企业认证。
@@ -59,7 +58,7 @@
 
 #### 1.2 签署协议及申请准入
 
-完成相关协议签署后，通过“**DNA注册认证服务平台**”提交星火账户（BID）、企业认证材料、应用平台资料，获取apiKey及apiSecret。
+完成相关协议签署后，通过“**DNA注册认证服务平台**”提交星火账户（BID）、企业认证材料、应用平台资料，获取<font color=red>apiKey及apiSecret</font>。
 
 备注：
 
@@ -127,17 +126,18 @@
 
 数字资产注册平台提供以下接口类型：
 
-| **接口类型** | **描述**                           |
-| -------- | -------------------------------- |
-| 账户管理类    | 用于用户账户的管理，包含`创建`，`激活`等操作         |
-| 集合操作类    | 用于数字资产集合的操作，包含`创建`，`查询`等操作       |
-| 资产操作类    | 用于数字资产的操作，包含注册，`转移`，`销毁`，`查询`等操作 |
+| **接口类型** | **描述**                     |
+| -------- | -------------------------- |
+| :3000    | :7000                      |
+| 账户管理类    | 用于用户账户的管理，包含创建，激活等操作       |
+| 集合操作类    | 用于数字资产集合的操作，包含创建，查询等操作     |
+| 资产操作类    | 用于数字资产的操作，包含注册，转移，销毁，查询等操作 |
 
 ### 二、API认证机制
 
 所有API的安全认证一律采用accessToken认证，服务端根据生成算法验证认证字符串的正确性。
 
-accessToken需要应用方通过apiKey和apiSecret调用相关平台接口获得，具有时效性，有效时间为2小时，过期后需要重新获取否则会调用接口失败，建议妥善保存并管理。
+accessToken需要应用方通过apiKey和apiSecret调用相关平台接口获得，具有时效性，有效时间为<font color=red>2小时</font>，过期后需要重新获取否则会调用接口失败，建议妥善保存并管理。
 
 ### 三、操作指引
 
@@ -216,7 +216,7 @@ https://{{url}}/registration/api/v2/getToken
 
 #### 4.2 生成公私钥
 
-参照[bif-offline-api 文档2.1章节](https://bif-doc.readthedocs.io/zh_CN/1.0.0/tools/offlineapi.html)
+参照[BIF-OFFLINE-API 文档2.1章节](https://bif-doc.readthedocs.io/zh_CN/1.0.0/tools/offlineapi.html)
 
 ```
 http://localhost:8888/bifApi/v1/createAddress
@@ -228,9 +228,9 @@ http://localhost:8888/bifApi/v1/createAddress
 
 **请求参数**
 
-| **字段名** | **类型** | **是否必填** | **描述**                      |
-|:------- |:------ |:-------- | --------------------------- |
-| type    | int    | 是        | 必填，加密类型1、`ED25519` ;2、`SM2` |
+| **字段名** | **类型** | **是否必填** | **描述**                 |
+|:------- |:------ |:-------- | ---------------------- |
+| type    | int    | 是        | 必填，加密类型1、ED25519;2、SM2 |
 
 **响应参数**
 
@@ -273,7 +273,7 @@ http://localhost:8888/bifApi/v1/createAddress
 
 #### 4.3 构造合约签名交易
 
-参照[bif-offline-api文档 2.9 章节](https://bif-doc.readthedocs.io/zh_CN/1.0.0/tools/offlineapi.html)
+参照[BIF-OFFLINE-API文档 2.9 章节](https://bif-doc.readthedocs.io/zh_CN/1.0.0/tools/offlineapi.html)
 
 ```http
 http://localhost:8888/bifApi/v1/contract
@@ -291,9 +291,9 @@ http://localhost:8888/bifApi/v1/contract
 | senderPrivateKey | string | 是        | 交易源账户私钥                                                                                                                                                      |
 | contractAddress  | string | 是        | 合约账户地址xxxxxxxxx                                                                                                                                              |
 | bifAmount        | int64  | 是        | 转账金额 ，参数为 0                                                                                                                                                  |
-| feeLimit         | int64  | 是        | 参数为`20,000,000`                                                                                                                                              |
-| gasPrice         | int64  | 是        | gas费，参数为`200`                                                                                                                                                |
-| nonce            | int64  | 是        | nonce  需要从链上获取，参照接口`6.11`                                                                                                                                    |
+| feeLimit         | int64  | 是        | 参数为<font color=red>20,000,000</font>                                                                                                                         |
+| gasPrice         | int64  | 是        | gas费，参数为<font color=red>200</font>                                                                                                                           |
+| nonce            | int64  | 是        | nonce  需要从链上获取，参照接口6.11                                                                                                                                      |
 | input            | string | 是        | 待触发的合约的main()入参，为调用上链交易接口的入参数<br/>转移数字资产"input":{"{\"function\":\"safeTransferFrom(address,address,string)\",\"args\":\"fromAddress,toAddress,'tokenBid'\"}} |
 
 **input参数**
@@ -370,9 +370,9 @@ http://localhost:8888/bifApi/v1/contract
 | senderPrivateKey | string | 是        | 交易源账户私钥                                                                                                     |
 | contractAddress  | string | 是        | 合约账户地址xxxxxxxxx                                                                                             |
 | bifAmount        | int64  | 是        | 转账金额 ，参数为 0                                                                                                 |
-| feeLimit         | int64  | 是        | 参数为`20,000,000`                                                                                             |
-| gasPrice         | int64  | 是        | gas费，参数为`200`                                                                                               |
-| nonce            | int64  | 是        | nonce  需要从链上获取，参照接口`6.11`                                                                                   |
+| feeLimit         | int64  | 是        | 参数为<font color=red>20,000,000</font>                                                                        |
+| gasPrice         | int64  | 是        | gas费，参数为<font color=red>200</font>                                                                          |
+| nonce            | int64  | 是        | nonce  需要从链上获取，参照接口6.11                                                                                     |
 | input            | string | 是        | 待触发的合约的main()入参，为调用上链交易接口的入参数<br/>销毁数字资产"input":{"{\"function\":\"burn(string)\",\"args\":\"'tokenBid'\"}"} |
 
 **input参数**
@@ -474,6 +474,7 @@ https://{url}/registration/api/v2/account/upload
 </center>
 
 **请求体：**
+
 ```json
 {
     "data":[
@@ -894,18 +895,18 @@ https://{url}/registration/api/v2/chain/batchMintDNA
 **Data结构如下:**    
 
 | **字段名**     | **类型** | **是否必填** | **描述**                                    |
-| ----------- | ------ | --------- | ----------------------------------------- |
-| seriesId    | string | 是         | 集合ID                                      |
-| dnaName     | string | 是         | 数字资产名称，不超过50个字符                           |
-| dnaNumber   | string | 是         | 数字资产编号，集合内不重复                             |
-| dnaDes      | string | 否         | 数字资产描述，不超过200个字符                          |
-| url         | string | 是         | 数字资产 url，建议尺寸：350px*350px                 |
-| hash        | string | 是         | 数字资产图片哈希值                                 |
-| displayUrl  | string | 是         | 数字资产缩略图url，建议尺寸：85px*85px                 |
-| toBid       | string | 是         | 用户数字资产持有者地址                               |
-| dnaPrice    | number | 是         | 数字资产价格，小数点后保留2位,单位：元（人民币）                 |
-| dnaCategory | string | 是         | 资产类型：图片、音频、视频、品牌、会员资格、域名、社交、音乐、艺术品、PFP、3D |
-| extension   | string | 否         | 扩展字段，用户自定义，长度不超过1024个字符                   |
+| ----------- | ------ | -------- | ----------------------------------------- |
+| seriesId    | string | 是        | 集合ID                                      |
+| dnaName     | string | 是        | 数字资产名称，不超过50个字符                           |
+| dnaNumber   | string | 是        | 数字资产编号，集合内不重复                             |
+| dnaDes      | string | 否        | 数字资产描述，不超过200个字符                          |
+| url         | string | 是        | 数字资产 url，建议尺寸：350px*350px                 |
+| hash        | string | 是        | 数字资产图片哈希值                                 |
+| displayUrl  | string | 是        | 数字资产缩略图url，建议尺寸：85px*85px                 |
+| toBid       | string | 是        | 用户数字资产持有者地址                               |
+| dnaPrice    | number | 是        | 数字资产价格，小数点后保留2位,单位：元（人民币）                 |
+| dnaCategory | string | 是        | 资产类型：图片、音频、视频、品牌、会员资格、域名、社交、音乐、艺术品、PFP、3D |
+| extension   | string | 否        | 扩展字段，用户自定义，长度不超过1024个字符                   |
 
 **响应参数**
 
@@ -993,9 +994,9 @@ https://{url}/registration/api/v2/chain/transferDNA
 | tokenBid      | string | 是        | 数字资产bid，每个数字资产绑定一个主链bid作为唯一识别。调用星火链网接口获取主链bid |
 | fromBid       | string | 是        | 用户数字资产持有者地址,保证都是应用下的账户                        |
 | toBid         | string | 是        | 用户接收数字资产的地址，保证都是应用下的账户                        |
-| serialization | string | 是        | 序列化的交易数据，通过调用`4.3接口`获取                        |
-| signData      | string | 是        | 交易签名数据，通过调用`4.3接口`获取                          |
-| publicKey     | string | 是        | 公钥，通过调用`4.3接口`获取                              |
+| serialization | string | 是        | 序列化的交易数据，通过调用4.3接口获取                          |
+| signData      | string | 是        | 交易签名数据，通过调用4.3接口获取                            |
+| publicKey     | string | 是        | 公钥，通过调用4.3接口获取                                |
 
 **响应参数**
 
@@ -1373,11 +1374,11 @@ https://{url}/registration/api/v2/chain/status
 
 **请求参数**
 
-| **字段名**  | **类型** | **是否必填 ** | **描述**                                 |
-| -------- | ------ | --------- | -------------------------------------- |
-| tokenBid | string | 是         | 数据资产bid（或者数字资产对应主链上账户身份）               |
-| type     | number | 是         | 1 注册资产 2 转移资产 3 销毁资产                   |
-| txHash   | string | 是         | 对应注册，转移，销毁资产返回的交易hash，该字段可通过`6.10接口`获取 |
+| **字段名**  | **类型** | **是否必填 ** | **描述**                               |
+| -------- | ------ | --------- | ------------------------------------ |
+| tokenBid | string | 是         | 数据资产bid（或者数字资产对应主链上账户身份）             |
+| type     | number | 是         | 1 注册资产 2 转移资产 3 销毁资产                 |
+| txHash   | string | 是         | 对应注册，转移，销毁资产返回的交易hash，该字段可通过6.10接口获取 |
 
 **响应参数**
 
@@ -1493,7 +1494,7 @@ https://{url}/registration/api/v2/chain/message/{messageId}
 | ------- | -------- | -------------------------------------- |
 | state   | number   | 上链状态<br/>0 -已提交 <br/>1-上链失败<br/>2-上链成功 |
 | info    | object[] | 资产信息数组                                 |
-| txHash  | string   | 链上操作的hash，该字段可通过`6.10接口`获取             |
+| txHash  | string   | 链上操作的hash，该字段可通过6.10接口获取               |
 
 **info 结构如下：**
 
@@ -1599,11 +1600,12 @@ https://{url}/registration/api/v2/chain/nonce
 
 数字资产认证平台提供以下接口类型：
 
-| **接口类型** | **描述**                           |
-| -------- | -------------------------------- |
-| 账户管理类    | 用于用户账户的管理，包含`创建`，`激活`等操作         |
-| 集合操作类    | 用于数字资产集合的操作，包含`认证`，`查询`等操作       |
-| 资产操作类    | 用于数字资产的操作，包含认证，`转移`，`销毁`，`查询`等操作 |
+| **接口类型** | **描述**                     |
+| -------- | -------------------------- |
+| :3000    | :7000                      |
+| 账户管理类    | 用于用户账户的管理，包含创建，激活等操作       |
+| 集合操作类    | 用于数字资产集合的操作，包含认证，查询等操作     |
+| 资产操作类    | 用于数字资产的操作，包含认证，转移，销毁，查询等操作 |
 
 ### 二、API认证机制
 
@@ -1688,7 +1690,7 @@ https://{{url}}/registration/api/v2/getToken
 
 #### 4.2 生成公私钥
 
-参照[bif-offline-api 文档2.1章节](https://bif-doc.readthedocs.io/zh_CN/1.0.0/tools/offlineapi.html)
+参照[BIF-OFFLINE-API 文档2.1章节](https://bif-doc.readthedocs.io/zh_CN/1.0.0/tools/offlineapi.html)
 
 ```
 http://localhost:8888/bifApi/v1/createAddress
@@ -1700,9 +1702,9 @@ http://localhost:8888/bifApi/v1/createAddress
 
 **请求参数**
 
-| **字段名** | **类型** | **是否必填** | **描述**                      |
-| ------- | ------ | -------- | --------------------------- |
-| type    | Int    | 是        | 必填, 加密类型1:`ed25519`；2:`sm2` |
+| **字段名** | **类型** | **是否必填** | **描述**                  |
+| ------- | ------ | -------- | ----------------------- |
+| type    | Int    | 是        | 必填, 加密类型1:ed25519；2:sm2 |
 
 **响应参数**
 
@@ -1745,7 +1747,7 @@ http://localhost:8888/bifApi/v1/createAddress
 
 #### 4.3 构造合约签名交易
 
-参照[bif-offline-api 文档 2.9 章节](https://bif-doc.readthedocs.io/zh_CN/1.0.0/tools/offlineapi.html)
+参照[BIF-OFFLINE-API文档 2.9 章节](https://bif-doc.readthedocs.io/zh_CN/1.0.0/tools/offlineapi.html)
 
 ```http
 http://localhost:8888/bifApi/v1/contract
@@ -1763,18 +1765,18 @@ http://localhost:8888/bifApi/v1/contract
 | senderPrivateKey | string | 是        | 交易源账户私钥                                                                                                                                                      |
 | contractAddress  | string | 是        | 合约账户地址xxxxxxxxx                                                                                                                                              |
 | bifAmount        | int64  | 是        | 转账金额 ，参数为 0                                                                                                                                                  |
-| feeLimit         | int64  | 是        | 参数为`20,000,000`                                                                                                                                              |
-| gasPrice         | int64  | 是        | gas费，参数为`200`                                                                                                                                                |
-| nonce            | int64  | 是        | nonce  需要从链上获取，参照`接口4.6`获取当前地址nonce值                                                                                                                         |
+| feeLimit         | int64  | 是        | 参数为<font color=red>20,000,000</font>                                                                                                                         |
+| gasPrice         | int64  | 是        | gas费，参数为<font color=red>200</font>                                                                                                                           |
+| nonce            | int64  | 是        | nonce  需要从链上获取，参照接口4.6获取当前地址nonce值                                                                                                                           |
 | input            | string | 是        | 待触发的合约的main()入参，为调用上链交易接口的入参数<br/>转移数字资产"input":{"{\"function\":\"safeTransferFrom(address,address,string)\",\"args\":\"fromAddress,toAddress,'tokenBid'\"}} |
 
 **input参数**
 
 | **字段名**     | **类型** | **是否必填** | **描述**                                        |
-| ----------- | ------ | --------- | --------------------------------------------- |
-| fromAddress | string | 是         | 用户数字资产持有者地址,保证都是应用下的账户                        |
-| tokenBid    | string | 是         | 数字资产bid，每个数字资产绑定一个主链bid作为唯一识别。调用星火链网接口获取主链bid |
-| toAddress   | string | 是         | 用户接收数字资产的地址，保证都是应用下的账户                        |
+| ----------- | ------ | -------- | --------------------------------------------- |
+| fromAddress | string | 是        | 用户数字资产持有者地址,保证都是应用下的账户                        |
+| tokenBid    | string | 是        | 数字资产bid，每个数字资产绑定一个主链bid作为唯一识别。调用星火链网接口获取主链bid |
+| toAddress   | string | 是        | 用户接收数字资产的地址，保证都是应用下的账户                        |
 
 **响应参数**
 
@@ -1824,7 +1826,7 @@ http://localhost:8888/bifApi/v1/contract
 
 #### 4.4 构造合约签名交易
 
-参照[bif-offline-api 文档 2.9 章节](https://bif-doc.readthedocs.io/zh_CN/1.0.0/tools/offlineapi.html)
+参照[BIF-OFFLINE-API文档 2.9 章节](https://bif-doc.readthedocs.io/zh_CN/1.0.0/tools/offlineapi.html)
 
 ```http
 http://localhost:8888/bifApi/v1/contract
@@ -1837,21 +1839,21 @@ http://localhost:8888/bifApi/v1/contract
 **请求参数**
 
 | **字段名**          | **类型** | **是否必填** | **描述**                                                                                                      |
-| ---------------- | ------ | --------- | ----------------------------------------------------------------------------------------------------------- |
-| senderAddress    | string | 是         | 交易源账号，即交易的发起方                                                                                               |
-| senderPrivateKey | string | 是         | 交易源账户私钥                                                                                                     |
-| contractAddress  | string | 是         | 合约账户地址xxxxxxxxx                                                                                             |
-| bifAmount        | int64  | 是         | 转账金额 ，参数为 0                                                                                                 |
-| feeLimit         | int64  | 是         | 参数为`20,000,000`                                                                                             |
-| gasPrice         | int64  | 是         | gas费，参数为`200`                                                                                               |
-| nonce            | int64  | 是         | nonce  需要从链上获取，参照`接口4.6`获取当前地址nonce值                                                                        |
-| input            | string | 是         | 待触发的合约的main()入参，为调用上链交易接口的入参数<br/>销毁数字资产"input":{"{\"function\":\"burn(string)\",\"args\":\"'tokenBid'\"}"} |
+| ---------------- | ------ | -------- | ----------------------------------------------------------------------------------------------------------- |
+| senderAddress    | string | 是        | 交易源账号，即交易的发起方                                                                                               |
+| senderPrivateKey | string | 是        | 交易源账户私钥                                                                                                     |
+| contractAddress  | string | 是        | 合约账户地址xxxxxxxxx                                                                                             |
+| bifAmount        | int64  | 是        | 转账金额 ，参数为 0                                                                                                 |
+| feeLimit         | int64  | 是        | 参数为<font color=red>20,000,000</font>                                                                        |
+| gasPrice         | int64  | 是        | gas费，参数为<font color=red>200</font>                                                                          |
+| nonce            | int64  | 是        | nonce  需要从链上获取，参照接口4.6获取当前地址nonce值                                                                          |
+| input            | string | 是        | 待触发的合约的main()入参，为调用上链交易接口的入参数<br/>销毁数字资产"input":{"{\"function\":\"burn(string)\",\"args\":\"'tokenBid'\"}"} |
 
 **input参数**
 
 | **字段名**  | **类型** | **是否必填** | **描述**                                        |
-| -------- | ------ | --------- | --------------------------------------------- |
-| tokenBid | string | 是         | 数字资产bid，每个数字资产绑定一个主链bid作为唯一识别。调用星火链网接口获取主链bid |
+| -------- | ------ | -------- | --------------------------------------------- |
+| tokenBid | string | 是        | 数字资产bid，每个数字资产绑定一个主链bid作为唯一识别。调用星火链网接口获取主链bid |
 
 **响应参数**
 
@@ -2031,12 +2033,12 @@ https://{url}/registration/api/v2/chain/nonce
 
 **数字原生资产认证服务详情：**如下表。
 
-| 接口类型       | 服务名称                                                                        | 描述                                                                            |
-| ---------- | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| 数据资产基础数据   | 数字资产集合信息认证                                                                  | 集合是一种资产类型的标记，方便认证资产进行分类和管理；实现数字资产认证前必须完成数字资产集合信息认证；不支持更新；支持批量认证，单次不超过100；不上链。 |
-| 数字资产认证     | 应用方上传数字资产相关信息，完成数字资产认证；不支持更新；支持批量认证，单次不超过100；部分信息上链，DNABid及metadata hash上链。 |                                                                               |
-| 数字资产相关事件数据 | 资产转移认证                                                                      | 应用方上传认证数字资产转移交易信息，完成资产转移认证；支持批量认证，单次不超过100；不支持更新；同步更新资产owner;不上链；             |
-| 资产销毁认证     | 应用方上传认证数字资产销毁交易信息，完成资产注销认证；支持批量认证，单次不超过100；不支持更新；同步更新资产owner;不上链            |                                                                               |
+| 接口类型       | 服务名称                                                                                    | 描述                                                                                                   |
+| ---------- | --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| 数据资产基础数据   | 数字资产集合信息认证                                                                              | 集合是一种资产类型的标记，方便认证资产进行分类和管理；实现数字资产认证前必须完成数字资产集合信息认证；不支持更新；支持批量认证，单次不超过<font color=red>100</font>；不上链。 |
+| 数字资产认证     | 应用方上传数字资产相关信息，完成数字资产认证；不支持更新；支持批量认证，单次不超过100；部分信息上链，DNABid及metadata hash上链。             |                                                                                                      |
+| 数字资产相关事件数据 | 资产转移认证                                                                                  | 应用方上传认证数字资产转移交易信息，完成资产转移认证；支持批量认证，单次不超过<font color=red>100</font>；不支持更新；同步更新资产owner;不上链；             |
+| 资产销毁认证     | 应用方上传认证数字资产销毁交易信息，完成资产注销认证；支持批量认证，单次不超过<font color=red>100</font>；不支持更新；同步更新资产owner;不上链 |                                                                                                      |
 
 #### 5.1 获取access token
 
@@ -2060,9 +2062,9 @@ https://{url}/auth/api/v1/series
 
 **请求参数**
 
-| **字段名** | **类型**   | **是否必填** | **描述**              |
-| ------- | -------- | -------- | ------------------- |
-| data    | object[] | 是        | 认证集合列表，集合数量不超过`100` |
+| **字段名** | **类型**   | **是否必填** | **描述**            |
+| ------- | -------- | -------- | ----------------- |
+| data    | object[] | 是        | 认证集合列表，集合数量不超过100 |
 
 Data结构如下:
 
@@ -2138,27 +2140,27 @@ https://{url}/auth/api/v1/dna
 
 **请求参数**
 
-| **字段名** | **类型**   | **是否必填** | **描述**                |
-| ------- | -------- | -------- | --------------------- |
-| data    | object[] | 是        | 认证数字资产列表，资产数量不超过`100` |
+| **字段名** | **类型**   | **是否必填** | **描述**              |
+| ------- | -------- | -------- | ------------------- |
+| data    | object[] | 是        | 认证数字资产列表，资产数量不超过100 |
 
 **Data结构如下：**
 
 | **字段名**    | **类型** | **是否必填** | **描述**                                  |
-| ---------- | ------ | --------- | --------------------------------------- |
-| seriesId   | String | 是         | 资产所属集合id或子集合id                          |
-| dnaName    | String | 是         | 数字资产名称                                  |
-| dnaNumber  | String | 是         | 数字资产的编号                                 |
-| tokenBid   | String | 是         | 数字资产Bid                                 |
-| dnaDes     | String | 否         | 数字资产描述说明                                |
-| dnaType    | string | 是         | 数字资产类型，0-图片、1-视频、2-音频                   |
-| url        | String | 是         | 数字资产图像的url,建议使用350px*350px的图像,需支持开放访问   |
-| displayUrl | String | 是         | 数字资产缩略图URL，建议尺寸85px*85px，需支持开放访问        |
-| hash       | String | 是         | 数字资产图片哈希值                               |
-| mintTime   | String | 是         | 数字资产链上mint交易时间                          |
-| owner      | String | 是         | 数字资产所有者，指账户地址；数字资产发生相关交易后，平台更新维护owner信息 |
-| dnaPrice   | Number | 是         | 数字资产发行价格                                |
-| extension  | String | 否         | 扩展字段，用户自定义，长度不超过1024个字符                 |
+| ---------- | ------ | -------- | --------------------------------------- |
+| seriesId   | String | 是        | 资产所属集合id或子集合id                          |
+| dnaName    | String | 是        | 数字资产名称                                  |
+| dnaNumber  | String | 是        | 数字资产的编号                                 |
+| tokenBid   | String | 是        | 数字资产Bid                                 |
+| dnaDes     | String | 否        | 数字资产描述说明                                |
+| dnaType    | string | 是        | 数字资产类型，0-图片、1-视频、2-音频                   |
+| url        | String | 是        | 数字资产图像的url,建议使用350px*350px的图像,需支持开放访问   |
+| displayUrl | String | 是        | 数字资产缩略图URL，建议尺寸85px*85px，需支持开放访问        |
+| hash       | String | 是        | 数字资产图片哈希值                               |
+| mintTime   | String | 是        | 数字资产链上mint交易时间                          |
+| owner      | String | 是        | 数字资产所有者，指账户地址；数字资产发生相关交易后，平台更新维护owner信息 |
+| dnaPrice   | Number | 是        | 数字资产发行价格                                |
+| extension  | String | 否        | 扩展字段，用户自定义，长度不超过1024个字符                 |
 
 **响应参数**
 
@@ -2370,15 +2372,14 @@ Data结构如下:
 
 + 上链超时，可能原因链上拥堵。措施：将失败交易重新提交。
 
-+ nonce值设置低于链上nonce值。措施：一般一笔交易提交`3~4s`后，获取链上地址nonce，并再次提交交易。链上非常拥堵时，可设置为`10s`。
++ nonce值设置低于链上nonce值。措施：一般一笔交易提交<font color=red>3~4s</font>后，获取链上地址nonce，并再次提交交易。链上非常拥堵时，可设置为<font color=red>10s</font>。
 
 #### 1.2 激活问题
 
 业务需要全部激活：
 
-* 业务层激活：输入`手机号hash`完成业务激活，用于数据互联互通。
-
-* 链上激活：必须保证用户BID账号有星火令且能数量足够。入参设置`feelimit`推荐值`20,000,000`
+* 业务层激活：输入<font color=red>手机号hash</font>完成业务激活，用于数据互联互通。
+* 链上激活：必须保证用户BID账号有星火令且能数量足够。入参<font color=red>feelimit</font>设置推荐值<font color=red>20,000,000</font>
 
 **备注：后台自动维护星火令，用户无需过多关注这个场景，交易失败重试即可解决。**
 
@@ -2390,7 +2391,7 @@ Data结构如下:
 
 #### 2.1 业务初始化失败
 
-原因DNA注册认证平台主账号星火令不足，联系技术人员补充`星火令`。
+原因DNA注册认证平台主账号星火令不足，联系技术人员补充<font color=red>星火令</font>。
 
 #### 2.2 修改应用名
 
