@@ -4,7 +4,7 @@
 
 ---
 
-DNA注册认证服务平台面向资产数字化和数字化资产应用场景，充分运用大数据<font color=red>大数据</font>、<font color=red>区块链</font>、<font color=red>NFT技术</font>，构建的具备数字资产注册、确权认证、交易流通、资产管理、技术服务和监测监管等功能的数字资产公共服务网络。
+DNA注册认证服务平台面向资产数字化和数字化资产应用场景，充分运用<font color=red>大数据</font>、<font color=red>区块链</font>、<font color=red>NFT技术</font>，构建的具备数字资产注册、确权认证、交易流通、资产管理、技术服务和监测监管等功能的数字资产公共服务网络。
 
 <center>
 <img src="./docs/数字原生资产服务/DNA注册认证平台/image/DNA注册认证平台图片【概述】-1.png" width="100%" width="100%">
@@ -36,47 +36,40 @@ DNA注册认证服务平台面向资产数字化和数字化资产应用场景�
 ## 使用手册
 
 ---
-
-本使用手册共2个部分:
-
-* **业务流程介绍**
-
-* **平台演示**
-
 ### 一、业务流程介绍
 
 #### 1.1 创建星火账户及企业认证
 
-**安装星火通插件钱包**：通过星火通账户创建星火企业账户，并完成企业认证。具体操作指引详见[《星火通插件钱包》](https://caict-4iot-dev.github.io/bif-guide/#/docs/%E6%95%B0%E5%AD%97%E8%BA%AB%E4%BB%BD%E6%9C%8D%E5%8A%A1/%E6%98%9F%E7%81%AB%E9%80%9A%E6%8F%92%E4%BB%B6%E9%92%B1%E5%8C%85/%E6%98%9F%E7%81%AB%E9%80%9A%E6%8F%92%E4%BB%B6%E9%92%B1%E5%8C%85)章节。
+**安装星火通插件钱包**：通过星火通账户创建星火企业账户，并完成企业认证。具体操作指引详见[《星火通插件钱包》](https://caict-4iot-dev.github.io/bif-guide/#/docs/%E6%95%B0%E5%AD%97%E8%BA%AB%E4%BB%BD%E6%9C%8D%E5%8A%A1/%E6%98%9F%E7%81%AB%E9%80%9A%E6%8F%92%E4%BB%B6%E9%92%B1%E5%8C%85/%E6%98%9F%E7%81%AB%E9%80%9A%E6%8F%92%E4%BB%B6%E9%92%B1%E5%8C%85)章节，**建议在chrome浏览器安装星火通插件钱包**。
 
-* 测试阶段：需要在**“星火测试网”**创建星火通账户并完成企业认证；
+* 测试阶段：需要在**“星火测试网”**创建星火通账户并完成企业认证。
 * 主网阶段：需要重新在**“星火主网”**创建星火通账户并完成企业认证。
 
 <center>
 <img src="./docs/数字原生资产服务/DNA注册认证平台/image/使用手册图片-1.png" width="50%" width="50%">
 </center>
 
-#### 1.2 签署协议及申请准入
+#### 1.2 签署协议及业务申请
 
-完成相关协议签署后，通过“**DNA注册认证服务平台**”提交星火账户（BID）、企业认证材料、应用平台资料，获取<font color=red>apiKey及apiSecret</font>。
+完成正式相关协议签署后，通过“**DNA注册认证服务平台**”提交星火账户（bid）、企业认证材料、应用平台资料完成申请。
 
 备注：
 
+* 测试阶段登录[DNA注册认证服务平台测试网](https://test-dna.bitfactory.cn/manage)，主网阶段登录[DNA注册认证服务平台主网](http://dna.bitfactory.cn/manage)
 * apiKey开发者的身份ID，可用于获取接入方的调用凭证（access_token），然后通过接口调用凭证再来访问数字资产注册认证平台API。
-
-* apiSecret开发者身份ID对应的密钥，配合API_key使用能够获取接口调用凭证，同时为了安全起见这个密钥需要妥善保管。
-
-* 测试阶段登录测试网的DNA注册认证平台，主网对接阶段登录主网的DNA注册认证平台。
+* apiSecret开发者身份ID对应的密钥，配合apiKey使用能够获取接口调用凭证，同时为了安全起见这个密钥需要妥善保管。
 
 #### 1.3 测试网对接
 
-通过[DNA注册认证服务平台测试网](https://test-dna.bitfactory.cn/manage)申请应用，获取apiKey/apiSecret，完成应用在测网环境对接。
+申请通过后，获取<font color=red>apiKey及apiSecret</font>，完成应用在测网环境对接。
 
-通过[DNA注册认证服务平台主网](http://dna.bitfactory.cn/manage)申请应用，获取apiKey/apiSecret，完成应用在主网环境对接。
+#### 1.4 主网对接
+
+申请通过后，获取<font color=red>apiKey及apiSecret</font>，完成应用在主网环境对接。
 
 ### 二、平台演示
 
-通过星火通插件钱包，出示可信企业凭证完成签名，登录DNA注册认证平台。申请应用获取apiKey/apiSecret。
+通过星火通插件钱包，出示可信企业凭证完成签名，登录DNA注册认证服务平台。申请应用获取apiKey和apiSecret。
 
 #### 2.1 登录平台
 
@@ -114,7 +107,7 @@ DNA注册认证服务平台面向资产数字化和数字化资产应用场景�
 <img src="./docs/数字原生资产服务/DNA注册认证平台/image/使用手册图片-7.png" width="100%" width="100%">
 </center>
 
-获得数据：智能合约地址、APIkey和secret、BID签名服务。
+获得数据：智能合约地址、apiKey和Secret、bid签名服务。
 
 **下一步：请查阅注册/认证API文档，完成应用与DNA接口对接。**
 
@@ -165,7 +158,7 @@ accessToken需要应用方通过apiKey和apiSecret调用相关平台接口获得
 <img src="./docs/数字原生资产服务/DNA注册认证平台/image/创建数字资产集合.png" width="70%" width="70%">
 </center>
 
-转移/销毁数字资产
+注册/转移/销毁数字资产
 
 <center>
 <img src="./docs/数字原生资产服务/DNA注册认证平台/image/转移或销毁数字资产.png" width="70%" width="70%">
@@ -192,11 +185,11 @@ https://{{url}}/registration/api/v2/getToken
 
 **响应参数**
 
-| **字段名**     | **类型** | **描述**                                                               |
-| ----------- | ------ | -------------------------------------------------------------------- |
-| retCode     | number | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误                           |
-| retMsg      | string | 200-OK<br/>400-apiKey必填、apiSecret必填、apiKey或apiSecret不正确<br/>500-服务错误 |
-| accessToken | string | 用于应用运营方用户（B端用户）调用接口                                                  |
+| **字段名**  | **类型** | **描述**                                                  |
+| ----------- | -------- | --------------------------------------------------------- |
+| retCode     | int      | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误 |
+| retMsg      | string   | 200-OK<br/>400-apiKey或apiSecret不正确<br/>500-服务错误   |
+| accessToken | string   | 用于应用运营方用户（B端用户）调用接口                     |
 
 **请求示例：**
 
@@ -214,9 +207,11 @@ https://{{url}}/registration/api/v2/getToken
 }
 ```
 
-#### 4.2 生成公私钥
+#### 4.2 生成离线bid账号
 
-参照[BIF-OFFLINE-API 文档2.1章节](https://bif-doc.readthedocs.io/zh_CN/1.0.0/tools/offlineapi.html)
+参照[离线API服务使用说明6.2.1章节](https://bif-doc.readthedocs.io/zh-cn/1.0.0/tools/offlineapi.html)
+
+该接口用于创建bid地址，可作为账户或者藏品的唯一标识
 
 ```
 http://localhost:8888/bifApi/v1/createAddress
@@ -228,20 +223,20 @@ http://localhost:8888/bifApi/v1/createAddress
 
 **请求参数**
 
-| **字段名** | **类型** | **是否必填** | **描述**                 |
-|:------- |:------ |:-------- | ---------------------- |
-| type    | int    | 是        | 必填，加密类型1、ED25519;2、SM2 |
+| **字段名** | **类型** | **是否必填** | **描述**                  |
+| :--------- | :------- | :----------- | ------------------------- |
+| type       | int      | 是           | 加密类型1、ED25519;2、SM2 |
 
 **响应参数**
 
-| **字段名**            | **类型** | **描述**                                      |
-| ------------------ | ------ | ------------------------------------------- |
-| code               | int    | 返回状态码，<br/>200-成功<br/>400-信息错误<br/>500-服务错误 |
-| message            | string | 200-OK<br/>400-type必填<br/>500-服务错误          |
-| data               | object |                                             |
-| data.encAddress    | string | BID地址                                       |
-| data.encPublicKey  | string | 公钥                                          |
-| data.encPrivateKey | string | 私钥                                          |
+| **字段名**         | **类型** | **描述**                                                    |
+| ------------------ | -------- | ----------------------------------------------------------- |
+| code               | int      | 返回状态码，<br/>200-成功<br/>400-信息错误<br/>500-服务错误 |
+| message            | string   | 200-OK<br/>400-type未填写<br/>500-服务错误                  |
+| data               | object   | bid标识数据                                                 |
+| data.encAddress    | string   | bid地址                                                     |
+| data.encPublicKey  | string   | 该bid地址对应公钥                                           |
+| data.encPrivateKey | string   | 该bid地址对应公钥                                           |
 
 **请求示例：**
 
@@ -273,7 +268,9 @@ http://localhost:8888/bifApi/v1/createAddress
 
 #### 4.3 构造合约签名交易
 
-参照[BIF-OFFLINE-API文档 2.9 章节](https://bif-doc.readthedocs.io/zh_CN/1.0.0/tools/offlineapi.html)
+参照[离线API服务使用说明6.2.9章节](https://bif-doc.readthedocs.io/zh-cn/2.0.0/instructions/%E7%A6%BB%E7%BA%BFAPI%E6%9C%8D%E5%8A%A1%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.html)
+
+为<font color=red>6.3章节接口</font>提供如下字段值serialization/signData/publicKey，用于构造<font color=red>转移资产</font>的交易。
 
 ```http
 http://localhost:8888/bifApi/v1/contract
@@ -285,35 +282,35 @@ http://localhost:8888/bifApi/v1/contract
 
 **请求参数**
 
-| **字段名**          | **类型** | **是否必填** | **描述**                                                                                                                                                       |
-| ---------------- | ------ |:-------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| senderAddress    | string | 是        | 交易源账号，即交易的发起方                                                                                                                                                |
-| senderPrivateKey | string | 是        | 交易源账户私钥                                                                                                                                                      |
-| contractAddress  | string | 是        | 合约账户地址xxxxxxxxx                                                                                                                                              |
-| bifAmount        | int64  | 是        | 转账金额 ，参数为 0                                                                                                                                                  |
-| feeLimit         | int64  | 是        | 参数为<font color=red>20,000,000</font>                                                                                                                         |
-| gasPrice         | int64  | 是        | gas费，参数为<font color=red>200</font>                                                                                                                           |
-| nonce            | int64  | 是        | nonce  需要从链上获取，参照接口6.11                                                                                                                                      |
-| input            | string | 是        | 待触发的合约的main()入参，为调用上链交易接口的入参数<br/>转移数字资产"input":{"{\"function\":\"safeTransferFrom(address,address,string)\",\"args\":\"fromAddress,toAddress,'tokenBid'\"}} |
+| **字段名**       | **类型** | **是否必填** | **描述**                                                     |
+| ---------------- | -------- | :----------- | ------------------------------------------------------------ |
+| senderAddress    | string   | 是           | 交易源账号bid地址，即交易发起方                              |
+| senderPrivateKey | string   | 是           | 交易源账户私钥                                               |
+| contractAddress  | string   | 是           | 合约账号地址(来源：申请应用时产生的合约地址)                 |
+| bifAmount        | int64    | 是           | 缺省情况为0，通常无需变动此参数的值                          |
+| feeLimit         | int64    | 是           | 建议为<font color=red>20,000,000</font>, 通常无需变动此参数的值 |
+| gasPrice         | int64    | 是           | gas费，缺省100，建议情况为<font color=red>200</font>, 通常无需变动此参数的值 |
+| nonce            | int64    | 是           | nonce  需要从链上获取，参照接口6.11                          |
+| input            | string   | 是           | 待触发的合约的main()入参，为调用上链交易接口的入参数<br/>转移数字资产"input":{"{\"function\":\"safeTransferFrom(address,address,string)\",\"args\":\"fromAddress,toAddress,'tokenBid'\"}} |
 
 **input参数**
 
-| **字段名**     | **类型** | **是否必填** | **描述**                                        |
-| ----------- | ------ | -------- | --------------------------------------------- |
-| fromAddress | string | 是        | 用户数字资产持有者地址,保证都是应用下的账户                        |
-| tokenBid    | string | 是        | 数字资产bid，每个数字资产绑定一个主链bid作为唯一识别。调用星火链网接口获取主链bid |
-| toAddress   | string | 是        | 用户接收数字资产的地址，保证都是应用下的账户                        |
+| **字段名**  | **类型** | **是否必填** | **描述**                                                     |
+| ----------- | -------- | ------------ | ------------------------------------------------------------ |
+| fromAddress | string   | 是           | 用户数字资产持有者地址,保证都是应用下的账户                  |
+| toAddress   | string   | 是           | 用户接收数字资产的地址，保证都是应用下的账户                 |
+| tokenBid    | string   | 是           | 数字资产bid，每个数字资产绑定一个主链bid作为唯一识别。调用星火链网接口获取主链bid |
 
 **响应参数**
 
-| **字段名**            | **类型** | **描述**                  |
-| ------------------ | ------ | ----------------------- |
-| code               | int    | 返回状态码<br>200-成功<br>其他错误 |
-| message            | string | 错误原因                    |
-| data               | object |                         |
-| data.serialization | string | 序列化的交易数据                |
-| data.signData      | string | 交易签名数据                  |
-| data.publicKey     | string | 公钥                      |
+| **字段名**         | **类型** | **描述**                           |
+| ------------------ | -------- | ---------------------------------- |
+| code               | int      | 返回状态码<br>200-成功<br>其他错误 |
+| message            | string   | 错误原因                           |
+| data               | object   | 合约签名数据                       |
+| data.serialization | string   | 序列化的交易数据                   |
+| data.signData      | string   | 交易签名数据                       |
+| data.publicKey     | string   | 交易账号公钥                       |
 
 **请求示例：**
 
@@ -352,7 +349,9 @@ http://localhost:8888/bifApi/v1/contract
 
 #### 4.4 构造合约签名交易
 
-参照[bif-offline-api 文档2.9 章节](https://bif-doc.readthedocs.io/zh_CN/1.0.0/tools/offlineapi.html)
+参照[离线API服务使用说明6.2.9章节](https://bif-doc.readthedocs.io/zh-cn/2.0.0/instructions/%E7%A6%BB%E7%BA%BFAPI%E6%9C%8D%E5%8A%A1%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.html)
+
+为<font color=red>6.4章节接口</font>提供如下字段值serialization/signData/publicKey，用于构造<font color=red>销毁资产</font>的交易。
 
 ```http
 http://localhost:8888/bifApi/v1/contract
@@ -364,33 +363,33 @@ http://localhost:8888/bifApi/v1/contract
 
 **请求参数**
 
-| **字段名**          | **类型** | **是否必填** | **描述**                                                                                                      |
-| ---------------- | ------ | -------- | ----------------------------------------------------------------------------------------------------------- |
-| senderAddress    | string | 是        | 交易源账号，即交易的发起方                                                                                               |
-| senderPrivateKey | string | 是        | 交易源账户私钥                                                                                                     |
-| contractAddress  | string | 是        | 合约账户地址xxxxxxxxx                                                                                             |
-| bifAmount        | int64  | 是        | 转账金额 ，参数为 0                                                                                                 |
-| feeLimit         | int64  | 是        | 参数为<font color=red>20,000,000</font>                                                                        |
-| gasPrice         | int64  | 是        | gas费，参数为<font color=red>200</font>                                                                          |
-| nonce            | int64  | 是        | nonce  需要从链上获取，参照接口6.11                                                                                     |
-| input            | string | 是        | 待触发的合约的main()入参，为调用上链交易接口的入参数<br/>销毁数字资产"input":{"{\"function\":\"burn(string)\",\"args\":\"'tokenBid'\"}"} |
+| **字段名**       | **类型** | **是否必填** | **描述**                                                     |
+| ---------------- | -------- | ------------ | ------------------------------------------------------------ |
+| senderAddress    | string   | 是           | 交易源账号bid地址，即交易发起方                              |
+| senderPrivateKey | string   | 是           | 交易源账户私钥                                               |
+| contractAddress  | string   | 是           | 合约账号地址(来源：申请应用时产生的合约地址)                 |
+| bifAmount        | int64    | 是           | 缺省情况为0，通常无需变动此参数的值                          |
+| feeLimit         | int64    | 是           | 建议为<font color=red>20,000,000</font>, 通常无需变动此参数的值 |
+| gasPrice         | int64    | 是           | gas费，缺省100，建议为<font color=red>200</font>, 通常无需变动此参数的值 |
+| nonce            | int64    | 是           | nonce  需要从链上获取，参照接口6.11                          |
+| input            | string   | 是           | 待触发的合约的main()入参，为调用上链交易接口的入参数<br/>销毁数字资产"input":{"{\"function\":\"burn(string)\",\"args\":\"'tokenBid'\"}"} |
 
 **input参数**
 
-| **字段名**  | **类型** | **是否必填** | **描述**                                        |
-| -------- | ------ | -------- | --------------------------------------------- |
-| tokenBid | string | 是        | 数字资产bid，每个数字资产绑定一个主链bid作为唯一识别。调用星火链网接口获取主链bid |
+| **字段名** | **类型** | **是否必填** | **描述**                                                     |
+| ---------- | -------- | ------------ | ------------------------------------------------------------ |
+| tokenBid   | string   | 是           | 数字资产bid，每个数字资产绑定一个主链bid作为唯一识别。调用星火链网接口获取主链bid |
 
 **响应参数**
 
-| **字段名**            | **类型** | **描述**                |
-| ------------------ | ------ | --------------------- |
-| code               | int    | 返回状态码，取值：200-成功，其他-错误 |
-| message            | string | 错误原因                  |
-| data               | object |                       |
-| data.serialization | string | 序列化的交易数据              |
-| data.signData      | string | 交易签名数据                |
-| data.publicKey     | string | 公钥                    |
+| **字段名**         | **类型** | **描述**                              |
+| ------------------ | -------- | ------------------------------------- |
+| code               | int      | 返回状态码，取值：200-成功，其他-错误 |
+| message            | string   | 错误原因                              |
+| data               | object   | 合约签名数据                          |
+| data.serialization | string   | 序列化的交易数据                      |
+| data.signData      | string   | 交易签名数据                          |
+| data.publicKey     | string   | 交易账号公钥                          |
 
 **请求示例：**
 
@@ -458,10 +457,10 @@ https://{url}/registration/api/v2/account/upload
 
 **响应参数**
 
-| **字段名** | **类型** | **描述**                                                                 |
-| ------- | ------ | ---------------------------------------------------------------------- |
-| retCode | number | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误                             |
-| retMsg  | string | 200-OK<br/>400-第1个账号phone不是有效的hash256字符，或者第1个账号Bid地址格式不正确<br/>500-服务错误 |
+| **字段名** | **类型** | **描述**                                                     |
+| ---------- | -------- | ------------------------------------------------------------ |
+| retCode    | int      | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误    |
+| retMsg     | string   | 200-OK<br/>400-第1个账号phone不是有效的hash256字符，或者第1个账号bid地址格式不正确<br/>500-服务错误 |
 
 **请求示例：**
 
@@ -532,12 +531,12 @@ https://{url}/registration/api/v2/series/add
 
 **响应参数**
 
-| **字段名**    | **类型** | **描述**                                                                                                                                |
-| ---------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------- |
-| retCode    | number | 返回状态码，<br/>200-成功<br/>400-信息错误<br/>500-服务错误                                                                                           |
-| retMsg     | string | 200-OK<br/>400-accessToken必填、accessToken不正确、accessToken过期、请检查请求参数,请求参数不能为空字符串、集合名称过长，不允许超过30字符、集合名称不允许重复、集合描述不允许超过200个字符<br/>500-服务错误 |
-| seriesId   | string | 集合ID                                                                                                                                  |
-| createTime | string | 集合创建时间                                                                                                                                |
+| **字段名** | **类型** | **描述**                                                     |
+| ---------- | -------- | ------------------------------------------------------------ |
+| retCode    | int      | 返回状态码，<br/>200-成功<br/>400-信息错误<br/>500-服务错误  |
+| retMsg     | string   | 200-OK<br/>400-accessToken必填、accessToken不正确、accessToken过期、请检查请求参数,请求参数不能为空字符串、集合名称过长，不允许超过50字符、集合名称不允许重复、集合描述不允许超过200个字符<br/>500-服务错误 |
+| seriesId   | string   | 集合ID                                                       |
+| createTime | string   | 集合创建时间                                                 |
 
 **请求示例：**
 
@@ -596,12 +595,12 @@ https://{url}/registration/api/v2/series/list/?pageNum=1&pageSize=20
 
 **响应参数**
 
-| **字段名** | **类型**   | **描述**                                                                 |
-| ------- | -------- | ---------------------------------------------------------------------- |
-| retCode | number   | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误                             |
-| retMsg  | string   | 200-OK<br/>400-accessToken必填、accessToken不正确、accessToken过期<br/>500-服务错误 |
-| total   | number   | 总数                                                                     |
-| data    | object[] | 应用下的集合列表                                                               |
+| **字段名** | **类型** | **描述**                                                     |
+| ---------- | -------- | ------------------------------------------------------------ |
+| retCode    | int      | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误    |
+| retMsg     | string   | 200-OK<br/>400-accessToken必填、accessToken不正确、accessToken过期<br/>500-服务错误 |
+| total      | number   | 总数                                                         |
+| data       | object[] | 应用下的集合列表                                             |
 
 **Data结构如下:**
 
@@ -666,17 +665,17 @@ https://{url}/registration/api/v2/series/{seriesId}
 
 **响应参数**
 
-| **字段名**      | **类型** | **描述**                                                                                                 |
-| ------------ | ------ | ------------------------------------------------------------------------------------------------------ |
-| retCode      | number | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误                                                             |
-| retMsg       | string | 200-OK<br/>400-accessToken必填、accessToken不正确、accessToken过期、集合id未填写或者集合id错误、集合id不正确、集合id不存在<br/>500-服务错误 |
-| seriesIssuer | string | 集合发行方                                                                                                  |
-| seriesName   | string | 集合名称，不超过50个字符                                                                                          |
-| seriesDes    | string | 集合描述，不超过200个字符                                                                                         |
-| externalUrl  | string | 外部连接，可以展示数字资产相关的网站                                                                                     |
-| createTime   | string | 集合创建时间                                                                                                 |
-| appId        | string | 应用id                                                                                                   |
-| seriesId     | string | 集合id                                                                                                   |
+| **字段名**   | **类型** | **描述**                                                     |
+| ------------ | -------- | ------------------------------------------------------------ |
+| retCode      | int      | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误    |
+| retMsg       | string   | 200-OK<br/>400-accessToken必填、accessToken不正确、accessToken过期、集合id未填写或者集合id错误、集合id不正确、集合id不存在<br/>500-服务错误 |
+| seriesIssuer | string   | 集合发行方                                                   |
+| seriesName   | string   | 集合名称，不超过50个字符                                     |
+| seriesDes    | string   | 集合描述，不超过200个字符                                    |
+| externalUrl  | string   | 外部连接，可以展示数字资产相关的网站                         |
+| createTime   | string   | 集合创建时间                                                 |
+| appId        | string   | 应用id                                                       |
+| seriesId     | string   | 集合id                                                       |
 
 **请求示例：**
 
@@ -707,7 +706,7 @@ https://{url}/registration/api/v2/series/{seriesId}
 #### 5.4 通过集合ID查询数字资产
 
 ```http
-https://{url}//registration/api/v2/:seriesId/dna
+https://{url}//registration/api/v2/:seriesld/dna?pageNum=1&pageSize=20
 ```
 
 **请求方式**
@@ -730,29 +729,29 @@ https://{url}//registration/api/v2/:seriesId/dna
 
 **响应参数**
 
-| **字段名** | **类型**   | **描述**                                                                                           |
-| ------- | -------- | ------------------------------------------------------------------------------------------------ |
-| retCode | number   | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误                                                       |
-| retMsg  | string   | 200-OK<br>400-accessToken必填、accessToken不正确、accessToken过期、请检查请求参数,请求参数不能为空字符串、集合id不存在<br>500-服务错误 |
-| total   | number   | 总数                                                                                               |
-| data    | object[] |                                                                                                  |
+| **字段名** | **类型** | **描述**                                                     |
+| ---------- | -------- | ------------------------------------------------------------ |
+| retCode    | int      | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误    |
+| retMsg     | string   | 200-OK<br>400-accessToken必填、accessToken不正确、accessToken过期、请检查请求参数,请求参数不能为空字符串、集合id不存在<br>500-服务错误 |
+| total      | number   | 总数                                                         |
+| data       | object[] | 资产相关数据                                                 |
 
 **Data结构如下:**
 
-| **字段名**     | **类型** | **是否必填** | **描述**                                    |
-| ----------- | ------ | -------- | ----------------------------------------- |
-| seriesId    | string | 是        | 集合ID                                      |
-| dnaName     | string | 是        | 数字资产名称，不超过50个字符                           |
-| dnaNumber   | string | 是        | 数字资产编号，集合内不重复                             |
-| dnaDes      | string | 是        | 数字资产描述，不超过200个字符                          |
-| url         | string | 是        | 数字资产 url，**建议尺寸**：350px*350px             |
-| hash        | string | 是        | 数字资产的hash值，建议采用sha256算法                   |
-| displayUrl  | string | 是        | 数字资产缩略图url，**建议尺寸**：85px*85px             |
-| dnaPrice    | number | 是        | 数字资产价格,单位：元（人民币）                          |
-| dnaCategory | string | 是        | 资产类型：图片、音频、视频、品牌、会员资格、域名、社交、音乐、艺术品、PFP、3D |
-| extension   | string | 是        | 扩展字段，用户自定义，长度不超过1024个字符                   |
-| tokenBid    | string | 是        | 数字资产bid                                   |
-| createTime  | string | 是        | 创建时间                                      |
+| **字段名**  | **类型** | **是否必填** | **描述**                                                     |
+| ----------- | -------- | ------------ | ------------------------------------------------------------ |
+| seriesId    | string   | 是           | 集合ID                                                       |
+| dnaName     | string   | 是           | 数字资产名称，不超过50个字符                                 |
+| dnaNumber   | string   | 是           | 数字资产编号，集合内不重复                                   |
+| dnaDes      | string   | 是           | 数字资产描述，不超过200个字符                                |
+| url         | string   | 是           | 数字资产 url，**建议尺寸**：350px*350px                      |
+| hash        | string   | 是           | 数字资产的hash值，建议采用sha256算法                         |
+| displayUrl  | string   | 是           | 数字资产缩略图url，**建议尺寸**：85px*85px                   |
+| dnaPrice    | number   | 是           | 数字资产价格,单位：元（人民币）                              |
+| dnaCategory | string   | 是           | 资产类型：图片、音频、视频、品牌、会员资格、域名、社交、音乐、艺术品、PFP、3D |
+| extension   | string   | 是           | 扩展字段，用户自定义，长度不超过1024个字符                   |
+| tokenBid    | string   | 是           | 数字资产bid                                                  |
+| createTime  | string   | 是           | 创建时间                                                     |
 
 **请求示例：**
 
@@ -826,13 +825,13 @@ https://{url}/registration/api/v2/chain/mintDNA
 
 **响应参数**
 
-| **字段名**   | **类型** | **描述**                                                                                                                                                                         |
-| --------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| retCode   | number | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误                                                                                                                                     |
-| retMsg    | string | 200-OK<br>400-accessToken必填、accessToken不正确、accessToken过期、请检查请求参数,请求参数不能为空字符串、集合ID不正确、集合ID不存在、集合ID重复、数字资产名称不应超过50个字符、数字资产名称编号重复、请输入正确格式的数字资产url、请输入正确格式的数字资产缩略图url<br/>500-服务错误 |
-| messageId | string | 消息id，用于查询处理结果                                                                                                                                                                  |
+| **字段名** | **类型** | **描述**                                                     |
+| ---------- | -------- | ------------------------------------------------------------ |
+| retCode    | int      | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误    |
+| retMsg     | string   | 200-OK<br>400-accessToken必填、accessToken不正确、accessToken过期、请检查请求参数,请求参数不能为空字符串、集合ID不正确、集合ID不存在、集合ID重复、数字资产名称不应超过50个字符、数字资产名称编号重复、请输入正确格式的数字资产url、请输入正确格式的数字资产缩略图url<br/>500-服务错误 |
+| messageId  | strin    | 消息id是由数字、字母组成的32位唯一id，用于6.10接口查询注册资产操作的上链状态 |
 
-**请求示例：**
+
 
 <center>
 <img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-24.png" width="100%" width="100%">
@@ -894,27 +893,27 @@ https://{url}/registration/api/v2/chain/batchMintDNA
 
 **Data结构如下:**    
 
-| **字段名**     | **类型** | **是否必填** | **描述**                                    |
-| ----------- | ------ | -------- | ----------------------------------------- |
-| seriesId    | string | 是        | 集合ID                                      |
-| dnaName     | string | 是        | 数字资产名称，不超过50个字符                           |
-| dnaNumber   | string | 是        | 数字资产编号，集合内不重复                             |
-| dnaDes      | string | 否        | 数字资产描述，不超过200个字符                          |
-| url         | string | 是        | 数字资产 url，建议尺寸：350px*350px                 |
-| hash        | string | 是        | 数字资产图片哈希值                                 |
-| displayUrl  | string | 是        | 数字资产缩略图url，建议尺寸：85px*85px                 |
-| toBid       | string | 是        | 用户数字资产持有者地址                               |
-| dnaPrice    | number | 是        | 数字资产价格，小数点后保留2位,单位：元（人民币）                 |
-| dnaCategory | string | 是        | 资产类型：图片、音频、视频、品牌、会员资格、域名、社交、音乐、艺术品、PFP、3D |
-| extension   | string | 否        | 扩展字段，用户自定义，长度不超过1024个字符                   |
+| **字段名**  | **类型** | **是否必填** | **描述**                                                     |
+| ----------- | -------- | ------------ | ------------------------------------------------------------ |
+| seriesId    | string   | 是           | 集合ID                                                       |
+| dnaName     | string   | 是           | 数字资产名称，不超过50个字符                                 |
+| dnaNumber   | string   | 是           | 数字资产编号，集合内不重复                                   |
+| dnaDes      | string   | 否           | 数字资产描述，不超过200个字符                                |
+| url         | string   | 是           | 数字资产 url，建议尺寸：350px*350px                          |
+| hash        | string   | 是           | 数字资产图片哈希值                                           |
+| displayUrl  | string   | 是           | 数字资产缩略图url，建议尺寸：85px*85px                       |
+| toBid       | string   | 是           | 用户数字资产持有者地址                                       |
+| dnaPrice    | number   | 是           | 数字资产价格，小数点后保留2位，单位：元（人民币）            |
+| dnaCategory | string   | 是           | 资产类型：图片、音频、视频、品牌、会员资格、域名、社交、音乐、艺术品、PFP、3D |
+| extension   | string   | 否           | 扩展字段，用户自定义，长度不超过1024个字符                   |
 
 **响应参数**
 
-| **字段名**   | **类型** | **描述**                                                                                                                                                                         |
-| --------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| retCode   | number | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误                                                                                                                                     |
-| retMsg    | string | 200-OK<br>400-accessToken必填、accessToken不正确、accessToken过期、请检查请求参数,请求参数不能为空字符串、集合ID不正确、集合ID不存在、集合ID重复、数字资产名称不应超过50个字符、数字资产名称编号重复、请输入正确格式的数字资产url、请输入正确格式的数字资产缩略图url<br/>500-服务错误 |
-| messageId | string | 消息id，用于查询上链状态                                                                                                                                                                  |
+| **字段名** | **类型** | **描述**                                                     |
+| ---------- | -------- | ------------------------------------------------------------ |
+| retCode    | int      | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误    |
+| retMsg     | string   | 200-OK<br>400-accessToken必填、accessToken不正确、accessToken过期、请检查请求参数,请求参数不能为空字符串、集合ID不正确、集合ID不存在、集合ID重复、数字资产名称不应超过50个字符、数字资产名称编号重复、请输入正确格式的数字资产url、请输入正确格式的数字资产缩略图url<br/>500-服务错误 |
+| messageId  | string   | 消息id是由数字、字母组成的32位唯一id，用于6.10接口查询注册资产操作的上链状态 |
 
 **请求示例：**
 
@@ -989,22 +988,22 @@ https://{url}/registration/api/v2/chain/transferDNA
 
 **请求参数**
 
-| **字段名**       | **类型** | **是否必填** | **描述**                                        |
-| ------------- | ------ | -------- | --------------------------------------------- |
-| tokenBid      | string | 是        | 数字资产bid，每个数字资产绑定一个主链bid作为唯一识别。调用星火链网接口获取主链bid |
-| fromBid       | string | 是        | 用户数字资产持有者地址,保证都是应用下的账户                        |
-| toBid         | string | 是        | 用户接收数字资产的地址，保证都是应用下的账户                        |
-| serialization | string | 是        | 序列化的交易数据，通过调用4.3接口获取                          |
-| signData      | string | 是        | 交易签名数据，通过调用4.3接口获取                            |
-| publicKey     | string | 是        | 公钥，通过调用4.3接口获取                                |
+| **字段名**    | **类型** | **是否必填** | **描述**                                                     |
+| ------------- | -------- | ------------ | ------------------------------------------------------------ |
+| tokenBid      | string   | 是           | 数字资产bid，每个数字资产绑定一个主链bid作为唯一识别。调用星火链网接口获取主链bid |
+| fromBid       | string   | 是           | 用户数字资产持有者地址，保证都是应用下的账户                 |
+| toBid         | string   | 是           | 用户接收数字资产的地址，保证都是应用下的账户                 |
+| serialization | string   | 是           | 序列化的交易数据，通过调用4.3接口获取                        |
+| signData      | string   | 是           | 交易签名数据，通过调用4.3接口获取                            |
+| publicKey     | string   | 是           | 交易账号公钥，通过调用4.3接口获取                            |
 
 **响应参数**
 
-| **字段名**   | **类型** | **描述**                                                                                                                                                          |
-| --------- | ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| retCode   | number | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误                                                                                                                      |
-| retMsg    | string | 200-OK<br>400-accessToken必填、accessToken不正确、accessToken过期、请检查请求参数,请求参数不能为空字符串、数字资产bid不正确、用户数字资产持有者地址必填、用户数字资产持有者地址不存在、用户数字资产持有者地址不正确、用户接收数字资产的地址不正确<br/>500-服务错误 |
-| messageId | string | 消息id，用于查询处理结果                                                                                                                                                   |
+| **字段名** | **类型** | **描述**                                                     |
+| ---------- | -------- | ------------------------------------------------------------ |
+| retCode    | int      | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误    |
+| retMsg     | string   | 200-OK<br>400-accessToken必填、accessToken不正确、accessToken过期、请检查请求参数，请求参数不能为空字符串、数字资产bid不正确、用户数字资产持有者地址必填、用户数字资产持有者地址不存在、用户数字资产持有者地址不正确、用户接收数字资产的地址不正确<br/>500-服务错误 |
+| messageId  | string   | 消息id是由数字、字母组成的32位唯一id，用于6.10接口查询注册资产操作的上链状态 |
 
 **请求示例：**
 
@@ -1057,21 +1056,21 @@ https://{url}/registration/api/v2/chain/burnDNA
 
 **请求参数**
 
-| **字段名**       | **类型** | **是否必填** | **描述**                                        |
-| ------------- | ------ | -------- | --------------------------------------------- |
-| tokenBid      | string | 是        | 数字资产bid，每个数字资产绑定一个主链bid作为唯一识别。调用星火链网接口获取主链bid |
-| fromBid       | string | 是        | 用户数字资产持有者地址                                   |
-| serialization | string | 是        | 序列化的交易数据                                      |
-| signData      | string | 是        | 交易签名数据                                        |
-| publicKey     | string | 是        | 公钥                                            |
+| **字段名**    | **类型** | **是否必填** | **描述**                                                     |
+| ------------- | -------- | ------------ | ------------------------------------------------------------ |
+| tokenBid      | string   | 是           | 数字资产bid，每个数字资产绑定一个主链bid作为唯一识别。调用星火链网接口获取主链bid |
+| fromBid       | string   | 是           | 用户数字资产持有者地址                                       |
+| serialization | string   | 是           | 序列化的交易数据，通过调用4.4接口获取                        |
+| signData      | string   | 是           | 交易签名数据，通过调用4.4接口获取                            |
+| publicKey     | string   | 是           | 交易账号公钥，通过调用4.4接口获取                            |
 
 **响应参数**
 
-| **字段名**   | **类型** | **描述**                                                                                                                                                                          |
-| --------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| retCode   | number | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误                                                                                                                                      |
-| retMsg    | string | 200-OK<br/>400-accessToken必填<br/>400-accessToken不正确<br/>400-accessToken过期<br/>400-请检查请求参数,请求参数不能为空字符串<br/>400-数字资产bid不存在<br/>400-用户数字资产持有者不正确<br/>400-用户数字资产持有者不存在<br/>500-服务错误 |
-| messageId | string | 消息id，用于查询处理结果                                                                                                                                                                   |
+| **字段名** | **类型** | **描述**                                                     |
+| ---------- | -------- | ------------------------------------------------------------ |
+| retCode    | int      | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误    |
+| retMsg     | string   | 200-OK<br/>400-accessToken必填<br/>400-accessToken不正确<br/>400-accessToken过期<br/>400-请检查请求参数,请求参数不能为空字符串<br/>400-数字资产bid不存在<br/>400-用户数字资产持有者不正确<br/>400-用户数字资产持有者不存在<br/>500-服务错误 |
+| messageId  | string   | 消息id是由数字、字母组成的32位唯一id，用于6.10接口查询注册资产操作的上链状态 |
 
 **请求示例：**
 
@@ -1108,7 +1107,7 @@ https://{url}/registration/api/v2/chain/burnDNA
 #### 6.5 通过用户bid查询数字资产
 
 ```http
-https://{url}/registration/api/v2/dna/:userId
+https://{url}/registration/api/v2/dna/:userld?pageNum=1&pageSize=20
 ```
 
 **请求方式**
@@ -1131,29 +1130,29 @@ https://{url}/registration/api/v2/dna/:userId
 
 **响应参数**
 
-| **字段名** | **类型**   | **描述**                                                                                    |
-| ------- | -------- | ----------------------------------------------------------------------------------------- |
-| retCode | number   | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误                                                |
-| retMsg  | string   | 200-OK<br>400-accessToken必填、accessToken不正确、accessToken过期、请检查请求参数,请求参数不能为空字符串<br/>500-服务错误 |
-| total   | number   | 总数                                                                                        |
-| data    | object[] |                                                                                           |
+| **字段名** | **类型** | **描述**                                                     |
+| ---------- | -------- | ------------------------------------------------------------ |
+| retCode    | int      | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误    |
+| retMsg     | string   | 200-OK<br>400-accessToken必填、accessToken不正确、accessToken过期、请检查请求参数,请求参数不能为空字符串<br/>500-服务错误 |
+| total      | number   | 总数                                                         |
+| data       | object[] |                                                              |
 
 **Data结构如下:**
 
-| **字段名**     | **类型** | **是否必填** | **描述**                                    |
-| ----------- | ------ | -------- | ----------------------------------------- |
-| seriesId    | string | 是        | 集合ID                                      |
-| dnaName     | string | 是        | 数字资产名称，不超过50个字符                           |
-| dnaNumber   | string | 是        | 数字资产编号，集合内不重复                             |
-| dnaDes      | string | 是        | 数字资产描述，不超过200个字符                          |
-| url         | string | 是        | 数字资产 url，建议尺寸：350px*350px                 |
-| hash        | string | 是        | 数字资产图片哈希值                                 |
-| displayUrl  | string | 是        | 数字资产缩略图url，建议尺寸：85px*85px                 |
-| dnaPrice    | number | 是        | 数字资产价格                                    |
-| dnaCategory | string | 是        | 资产类型：图片、音频、视频、品牌、会员资格、域名、社交、音乐、艺术品、PFP、3D |
-| extension   | string | 是        | 扩展字段，用户自定义，长度不超过1024个字符                   |
-| tokenBid    | string | 是        | 数字资产bid                                   |
-| createTime  | string | 是        | 创建时间                                      |
+| **字段名**  | **类型** | **是否必填** | **描述**                                                     |
+| ----------- | -------- | ------------ | ------------------------------------------------------------ |
+| seriesId    | string   | 是           | 集合ID                                                       |
+| dnaName     | string   | 是           | 数字资产名称，不超过50个字符                                 |
+| dnaNumber   | string   | 是           | 数字资产编号，集合内不重复                                   |
+| dnaDes      | string   | 是           | 数字资产描述，不超过200个字符                                |
+| url         | string   | 是           | 数字资产 url，建议尺寸：350px*350px                          |
+| hash        | string   | 是           | 数字资产图片哈希值                                           |
+| displayUrl  | string   | 是           | 数字资产缩略图url，建议尺寸：85px*85px                       |
+| dnaPrice    | number   | 是           | 数字资产价格                                                 |
+| dnaCategory | string   | 是           | 资产类型：图片、音频、视频、品牌、会员资格、域名、社交、音乐、艺术品、PFP、3D |
+| extension   | string   | 是           | 扩展字段，用户自定义，长度不超过1024个字符                   |
+| tokenBid    | string   | 是           | 数字资产bid                                                  |
+| createTime  | string   | 是           | 创建时间                                                     |
 
 **请求示例：**
 
@@ -1215,28 +1214,28 @@ https://{url}/registration/api/v2/dnaDetail?tokenBid
 
 **响应参数**
 
-| **字段名** | **类型** | **描述**                                                                                                |
-| ------- | ------ | ----------------------------------------------------------------------------------------------------- |
-| retCode | number | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误                                                            |
-| retMsg  | string | 200-OK<br>400-accessToken必填、accessToken不正确、accessToken过期、请检查请求参数,请求参数不能为空字符串、tokenBid不存在<br/>500-服务错误 |
-| data    | object | 对应数字资产详情                                                                                              |
+| **字段名** | **类型** | **描述**                                                     |
+| ---------- | -------- | ------------------------------------------------------------ |
+| retCode    | int      | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误    |
+| retMsg     | string   | 200-OK<br>400-accessToken必填、accessToken不正确、accessToken过期、请检查请求参数,请求参数不能为空字符串、tokenBid不存在<br/>500-服务错误 |
+| data       | object   | 对应数字资产详情                                             |
 
 **Data结构如下：**
 
-| **字段名**     | **类型** | **是否必填** | **描述**                                    |
-| ----------- | ------ | -------- | ----------------------------------------- |
-| seriesId    | string | 是        | 集合ID                                      |
-| dnaName     | string | 是        | 数字资产名称，不超过50个字符                           |
-| dnaNumber   | string | 是        | 数字资产编号，集合内不重复                             |
-| dnaDes      | string | 是        | 数字资产描述，不超过500个字符                          |
-| url         | string | 是        | 数字资产 url，建议尺寸：350px*350px                 |
-| hash        | string | 是        | 数字资产图片哈希值                                 |
-| displayUrl  | string | 是        | 数字资产缩略图url，建议尺寸：85px*85px                 |
-| dnaPrice    | number | 是        | 数字资产价格                                    |
-| dnaCategory | string | 是        | 资产类型：图片、音频、视频、品牌、会员资格、域名、社交、音乐、艺术品、PFP、3D |
-| extension   | string | 是        | 扩展字段，用户自定义，长度不超过1024个字符                   |
-| tokenBid    | string | 是        | 数字资产bid                                   |
-| createTime  | string | 是        | 创建时间                                      |
+| **字段名**  | **类型** | **是否必填** | **描述**                                                     |
+| ----------- | -------- | ------------ | ------------------------------------------------------------ |
+| seriesId    | string   | 是           | 集合ID                                                       |
+| dnaName     | string   | 是           | 数字资产名称，不超过50个字符                                 |
+| dnaNumber   | string   | 是           | 数字资产编号，集合内不重复                                   |
+| dnaDes      | string   | 是           | 数字资产描述，不超过500个字符                                |
+| url         | string   | 是           | 数字资产 url，建议尺寸：350px*350px                          |
+| hash        | string   | 是           | 数字资产图片哈希值                                           |
+| displayUrl  | string   | 是           | 数字资产缩略图url，建议尺寸：85px*85px                       |
+| dnaPrice    | number   | 是           | 数字资产价格                                                 |
+| dnaCategory | string   | 是           | 资产类型：图片、音频、视频、品牌、会员资格、域名、社交、音乐、艺术品、PFP、3D |
+| extension   | string   | 是           | 扩展字段，用户自定义，长度不超过1024个字符                   |
+| tokenBid    | string   | 是           | 数字资产bid                                                  |
+| createTime  | string   | 是           | 创建时间                                                     |
 
 **请求示例：**
 
@@ -1297,12 +1296,12 @@ https://{url}/registration/api/v2/record/:tokenBid
 
 **响应参数**
 
-| **字段名** | **类型**   | **描述**                                                                                               |
-| ------- | -------- | ---------------------------------------------------------------------------------------------------- |
-| retCode | number   | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误                                                           |
-| retMsg  | string   | 200-OK<br>400-accessToken必填、accessToken不正确、accessToken过期、请检查请求参数,请求参数不能为空字符串、数字资产bid不存在<br/>500-服务错误 |
-| total   | number   | 总数                                                                                                   |
-| data    | object[] |                                                                                                      |
+| **字段名** | **类型** | **描述**                                                     |
+| ---------- | -------- | ------------------------------------------------------------ |
+| retCode    | int      | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误    |
+| retMsg     | string   | 200-OK<br>400-accessToken必填、accessToken不正确、accessToken过期、请检查请求参数,请求参数不能为空字符串、数字资产bid不存在<br/>500-服务错误 |
+| total      | number   | 总数                                                         |
+| data       | object[] | 操作记录数据                                                 |
 
  **Data结构如下：**
 
@@ -1374,19 +1373,19 @@ https://{url}/registration/api/v2/chain/status
 
 **请求参数**
 
-| **字段名**  | **类型** | **是否必填 ** | **描述**                               |
-| -------- | ------ | --------- | ------------------------------------ |
-| tokenBid | string | 是         | 数据资产bid（或者数字资产对应主链上账户身份）             |
-| type     | number | 是         | 1 注册资产 2 转移资产 3 销毁资产                 |
-| txHash   | string | 是         | 对应注册，转移，销毁资产返回的交易hash，该字段可通过6.10接口获取 |
+| **字段名** | **类型** | **是否必填 ** | **描述**                                                     |
+| ---------- | -------- | ------------- | ------------------------------------------------------------ |
+| tokenBid   | string   | 是            | 数据资产bid（或者数字资产对应主链上账户身份）                |
+| type       | number   | 是            | 1 注册资产 2 转移资产 3 销毁资产                             |
+| txHash     | string   | 是            | 对应注册，转移，销毁资产返回的交易hash，该字段可通过6.10接口获取 |
 
 **响应参数**
 
-| **字段名** | **类型** | **描述**                                                                                                                                   |
-| ------- | ------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| retCode | number | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误                                                                                               |
-| retMsg  | string | 200-OK<br/>400-accessToken必填、accessToken不正确、accessToken过期、请检查请求参数,请求参数不能为空字符串、tokenBid不存在、无效的type、hash或该tokenid对应的type操作不存在<br/>500-服务错误 |
-| state   | number | 状态 <br/>0：已提交 <br/>1：上链失败<br/>2: 上链成功                                                                                                    |
+| **字段名** | **类型** | **描述**                                                     |
+| ---------- | -------- | ------------------------------------------------------------ |
+| retCode    | int      | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误    |
+| retMsg     | string   | 200-OK<br/>400-accessToken必填、accessToken不正确、accessToken过期、请检查请求参数,请求参数不能为空字符串、tokenBid不存在、无效的type、hash或该tokenid对应的type操作不存在<br/>500-服务错误 |
+| state      | number   | 状态 <br/>0：已提交，上链中 <br/>1：上链失败<br/>2：上链成功 |
 
 **示例：**
 
@@ -1397,7 +1396,6 @@ https://{url}/registration/api/v2/chain/status
 <center>
 <img src="./docs/数字原生资产服务/DNA注册认证平台/image/注册图-39.png" width="100%" width="100%">
 </center>
-
 **响应示例**
 
 ```json
@@ -1432,11 +1430,11 @@ https://{url}/registration/api/v2/chain/tokenOwnerOf/{tokenBid}
 
 **响应参数**
 
-| **字段名**    | **类型** | **描述**                                                                |
-| ---------- | ------ | --------------------------------------------------------------------- |
-| retCode    | number | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误                            |
-| retMsg     | string | 200-OK<br>400-accessToken必填、accessToken不正确、accessToken过期<br/>500-服务错误 |
-| bidAddress | string | 返回参数：有结果：[did:bid:ef6tofMj7gv1rMFAPkh6rG4p7oXuXoFv]没结果则为空             |
+| **字段名** | **类型** | **描述**                                                     |
+| ---------- | -------- | ------------------------------------------------------------ |
+| retCode    | int      | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误    |
+| retMsg     | string   | 200-OK<br>400-accessToken必填、accessToken不正确、accessToken过期<br/>500-服务错误 |
+| bidAddress | string   | 返回参数：有结果：[did:bid:ef6tofMj7gv1rMFAPkh6rG4p7oXuXoFv]没结果则为空 |
 
 **请求示例：**
 
@@ -1482,19 +1480,19 @@ https://{url}/registration/api/v2/chain/message/{messageId}
 
 **响应参数**
 
-| **字段名** | **类型** | **描述**                             |
-| ------- | ------ | ---------------------------------- |
-| retCode | number | 返回状态码，取值：200-成功，400-信息错误，500-服务错误  |
-| retMsg  | string | 200-OK<br>400-不存在的消息id<br>500-服务错误 |
-| data    | object | 资产数据                               |
+| **字段名** | **类型** | **描述**                                               |
+| ---------- | -------- | ------------------------------------------------------ |
+| retCode    | int      | 返回状态码，取值：200-成功，400-信息错误，500-服务错误 |
+| retMsg     | string   | 200-OK<br>400-不存在的消息id<br>500-服务错误           |
+| data       | object   | 资产数据                                               |
 
 **data 结构如下：**
 
-| **字段名** | **类型**   | **描述**                                 |
-| ------- | -------- | -------------------------------------- |
-| state   | number   | 上链状态<br/>0 -已提交 <br/>1-上链失败<br/>2-上链成功 |
-| info    | object[] | 资产信息数组                                 |
-| txHash  | string   | 链上操作的hash，该字段可通过6.10接口获取               |
+| **字段名** | **类型** | **描述**                                                     |
+| ---------- | -------- | ------------------------------------------------------------ |
+| state      | number   | 上链状态<br/>0 -已提交 ,上链中<br/>1-上链失败<br/>2-上链成功 |
+| info       | object[] | 资产信息数组                                                 |
+| txHash     | string   | 链上操作的hash                                               |
 
 **info 结构如下：**
 
@@ -1560,11 +1558,11 @@ https://{url}/registration/api/v2/chain/nonce
 
 **响应参数**
 
-| **字段名** | **类型** | **描述**                                                                                               |
-| ------- | ------ | ---------------------------------------------------------------------------------------------------- |
-| retCode | number | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误                                                           |
-| retMsg  | string | 200-OK<br>400-accessToken必填、accessToken不正确、accessToken过期、请检查请求参数,请求参数不能为空字符串、userBid不存在<br/>500-服务错误 |
-| nonce   | number | nonce值                                                                                               |
+| **字段名** | **类型** | **描述**                                                     |
+| ---------- | -------- | ------------------------------------------------------------ |
+| retCode    | int      | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误    |
+| retMsg     | string   | 200-OK<br>400-accessToken必填、accessToken不正确、accessToken过期、请检查请求参数,请求参数不能为空字符串、userBid不存在<br/>500-服务错误 |
+| nonce      | number   | nonce值                                                      |
 
 **请求示例：**
 
@@ -1594,7 +1592,7 @@ https://{url}/registration/api/v2/chain/nonce
 
 **数字原生资产认证服务：**面向已有区块链网络的客户提供认证服务，DNA认证服务基于星火主链的公信力为客户提供“星火·链网“DNA数字资产认证，在提高终端用户数字资产安全性的同时，帮助实现统一的资产监管和互认互通。
 
-**数字原生资产数据报送：**由客户通过认证服务接口自主上报，向【DNA注册认证平台】报送数字资产基础数据及其关联事件数据，完成数字资产认证。
+**数字原生资产数据报送：**由客户通过认证服务接口自主上报，向【DNA注册认证服务平台】报送数字资产基础数据及其关联事件数据，完成数字资产认证。
 
 **数字原生资产数据查询：**支持用户通过DNA浏览器查询该数字资产详情、历史交易信息及当前持有账户信息。
 
@@ -1666,11 +1664,11 @@ https://{{url}}/registration/api/v2/getToken
 
 **响应参数**
 
-| **字段名**     | **类型** | **描述**                                                               |
-| ----------- | ------ | -------------------------------------------------------------------- |
-| retCode     | number | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误                           |
-| retMsg      | string | 200-OK<br/>400-apiKey必填、apiSecret必填、apiKey或apiSecret不正确<br/>500-服务错误 |
-| accessToken | string | 用于应用运营方用户（B端用户）调用接口                                                  |
+| **字段名**  | **类型** | **描述**                                                  |
+| ----------- | -------- | --------------------------------------------------------- |
+| retCode     | int      | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误 |
+| retMsg      | string   | 200-OK<br/>400-apiKey或apiSecret不正确<br/>500-服务错误   |
+| accessToken | string   | 用于应用运营方用户（B端用户）调用接口                     |
 
 **请求示例：**
 
@@ -1688,9 +1686,11 @@ https://{{url}}/registration/api/v2/getToken
 }
 ```
 
-#### 4.2 生成公私钥
+#### 4.2 生成离线bid账号
 
-参照[BIF-OFFLINE-API 文档2.1章节](https://bif-doc.readthedocs.io/zh_CN/1.0.0/tools/offlineapi.html)
+参照[离线API服务使用说明6.2.1章节](https://bif-doc.readthedocs.io/zh-cn/2.0.0/instructions/%E7%A6%BB%E7%BA%BFAPI%E6%9C%8D%E5%8A%A1%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.html)
+
+该接口用于创建bid地址，可作为账户或者藏品的唯一标识
 
 ```
 http://localhost:8888/bifApi/v1/createAddress
@@ -1702,27 +1702,26 @@ http://localhost:8888/bifApi/v1/createAddress
 
 **请求参数**
 
-| **字段名** | **类型** | **是否必填** | **描述**                  |
-| ------- | ------ | -------- | ----------------------- |
-| type    | Int    | 是        | 必填, 加密类型1:ed25519；2:sm2 |
+| **字段名** | **类型** | **是否必填** | **描述**                 |
+| ---------- | -------- | ------------ | ------------------------ |
+| type       | Int      | 是           | 加密类型1:ed25519；2:sm2 |
 
 **响应参数**
 
-| **字段名**            | **类型** | **描述**                                     |
-| ------------------ | ------ | ------------------------------------------ |
-| code               | int    | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误 |
-| message            | string | 200-OK<br/>400-type必填<br/>500-服务错误         |
-| data               | object |                                            |
-| data.encAddress    | string | BID地址                                      |
-| data.encPublicKey  | string | 公钥                                         |
-| data.encPrivateKey | string | 私钥                                         |
+| **字段名**         | **类型** | **描述**                                                  |
+| ------------------ | -------- | --------------------------------------------------------- |
+| code               | int      | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误 |
+| message            | string   | 200-OK<br/>400-type必填<br/>500-服务错误                  |
+| data               | object   | bid标识数据                                               |
+| data.encAddress    | string   | bid地址                                                   |
+| data.encPublicKey  | string   | 该bid地址对应公钥                                         |
+| data.encPrivateKey | string   | 该bid地址对应私钥                                         |
 
 **请求示例：**
 
 <center>
 <img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-2.png" width="100%" width="100%">
 </center>
-
 **请求体:**
 
 ```json
@@ -1745,163 +1744,7 @@ http://localhost:8888/bifApi/v1/createAddress
 }
 ```
 
-#### 4.3 构造合约签名交易
-
-参照[BIF-OFFLINE-API文档 2.9 章节](https://bif-doc.readthedocs.io/zh_CN/1.0.0/tools/offlineapi.html)
-
-```http
-http://localhost:8888/bifApi/v1/contract
-```
-
-**请求方式**
-
-**POST**
-
-**请求参数**
-
-| **字段名**          | **类型** | **是否必填** | **描述**                                                                                                                                                       |
-| ---------------- | ------ | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| senderAddress    | string | 是        | 交易源账号，即交易的发起方                                                                                                                                                |
-| senderPrivateKey | string | 是        | 交易源账户私钥                                                                                                                                                      |
-| contractAddress  | string | 是        | 合约账户地址xxxxxxxxx                                                                                                                                              |
-| bifAmount        | int64  | 是        | 转账金额 ，参数为 0                                                                                                                                                  |
-| feeLimit         | int64  | 是        | 参数为<font color=red>20,000,000</font>                                                                                                                         |
-| gasPrice         | int64  | 是        | gas费，参数为<font color=red>200</font>                                                                                                                           |
-| nonce            | int64  | 是        | nonce  需要从链上获取，参照接口4.6获取当前地址nonce值                                                                                                                           |
-| input            | string | 是        | 待触发的合约的main()入参，为调用上链交易接口的入参数<br/>转移数字资产"input":{"{\"function\":\"safeTransferFrom(address,address,string)\",\"args\":\"fromAddress,toAddress,'tokenBid'\"}} |
-
-**input参数**
-
-| **字段名**     | **类型** | **是否必填** | **描述**                                        |
-| ----------- | ------ | -------- | --------------------------------------------- |
-| fromAddress | string | 是        | 用户数字资产持有者地址,保证都是应用下的账户                        |
-| tokenBid    | string | 是        | 数字资产bid，每个数字资产绑定一个主链bid作为唯一识别。调用星火链网接口获取主链bid |
-| toAddress   | string | 是        | 用户接收数字资产的地址，保证都是应用下的账户                        |
-
-**响应参数**
-
-| **字段名**            | **类型** | **描述**                |
-| ------------------ | ------ | --------------------- |
-| code               | int    | 返回状态码，取值：200-成功，其他-错误 |
-| message            | string | 错误原因                  |
-| data               | object |                       |
-| data.serialization | string | 序列化的交易数据              |
-| data.signData      | string | 交易签名数据                |
-| data.publicKey     | string | 公钥                    |
-
-**请求示例：**
-
-<center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-3.png" width="100%" width="100%">
-</center>
-
-**请求体：**
-
-```json
-{
-"senderAddress": "did:bid:efQ69GRtQUDR9SngdFKAv4owYyx5Fnko",
-"senderPrivateKey":"priSPKi7K3nVAgtdCu9k9hVn4modxzFkd73JGsRrUYJR1T2RxM",
-"contractAddress":"did:bid:efAHUyTyhCdUXSxb3znw3Jw4ET24GdCk",
-"bifAmount":0, 
-"feeLimit":100000000, 
-"gasPrice":10,                                 
-"nonce":33,  
-"input":"{\"function\":\"safeTransferFrom(address,address,string)\",\"args\":\"did:bid:efQ69GRtQUDR9SngdFKAv4owYyx5Fnko,did:bid:ef1L8GBs9mWzeKXGiAZC877WResz6y7,'did:bid:efDtTjWBLkJjtRSJFMfBLNJ6LjnKu1tV'\"}"
-}
-```
-
-**响应示例**:
-
-```json
-{
-    "code": 200,
-    "data": {
-        "serialization": "0a286469643a6269643a65665136394752745155445239536e6764464b4176346f7759797835466e6b6f102122ee01080752e9010a286469643a6269643a65664148557954796843645558537862337a6e77334a7734455432344764436b1abc017b2266756e6374696f6e223a22736166655472616e7366657246726f6d28616464726573732c616464726573732c737472696e6729222c2261726773223a226469643a6269643a65665136394752745155445239536e6764464b4176346f7759797835466e6b6f2c6469643a6269643a6566314c38474273396d577a654b584769415a43383737575265737a3679372c276469643a6269643a65664474546a57424c6b4a6a7452534a464d66424c4e4a364c6a6e4b7531745627227d3080c2d72f380a",
-        "signData": "70b2ce583fb15b1e67e67e76ab3cfe491e819dbcfa3120946b98648be2f319961e3f148efc49c37dae8a6b71c17ac3c11a20caf58fa26513f86b0d4b209d7a09",
-        "publicKey": "b06566d8fb4a6dfbe0d5831e38f621391ad9191626f7e28c13d3a0482c52d5c9607b14"
-    },
-    "message": "ok"
-}
-```
-
-#### 4.4 构造合约签名交易
-
-参照[BIF-OFFLINE-API文档 2.9 章节](https://bif-doc.readthedocs.io/zh_CN/1.0.0/tools/offlineapi.html)
-
-```http
-http://localhost:8888/bifApi/v1/contract
-```
-
-**请求方式**
-
-**POST**
-
-**请求参数**
-
-| **字段名**          | **类型** | **是否必填** | **描述**                                                                                                      |
-| ---------------- | ------ | -------- | ----------------------------------------------------------------------------------------------------------- |
-| senderAddress    | string | 是        | 交易源账号，即交易的发起方                                                                                               |
-| senderPrivateKey | string | 是        | 交易源账户私钥                                                                                                     |
-| contractAddress  | string | 是        | 合约账户地址xxxxxxxxx                                                                                             |
-| bifAmount        | int64  | 是        | 转账金额 ，参数为 0                                                                                                 |
-| feeLimit         | int64  | 是        | 参数为<font color=red>20,000,000</font>                                                                        |
-| gasPrice         | int64  | 是        | gas费，参数为<font color=red>200</font>                                                                          |
-| nonce            | int64  | 是        | nonce  需要从链上获取，参照接口4.6获取当前地址nonce值                                                                          |
-| input            | string | 是        | 待触发的合约的main()入参，为调用上链交易接口的入参数<br/>销毁数字资产"input":{"{\"function\":\"burn(string)\",\"args\":\"'tokenBid'\"}"} |
-
-**input参数**
-
-| **字段名**  | **类型** | **是否必填** | **描述**                                        |
-| -------- | ------ | -------- | --------------------------------------------- |
-| tokenBid | string | 是        | 数字资产bid，每个数字资产绑定一个主链bid作为唯一识别。调用星火链网接口获取主链bid |
-
-**响应参数**
-
-| **字段名**            | **类型** | **描述**                |
-| ------------------ | ------ | --------------------- |
-| code               | int    | 返回状态码，取值：200-成功，其他-错误 |
-| message            | string | 错误原因                  |
-| data               | object |                       |
-| data.serialization | string | 序列化的交易数据              |
-| data.signData      | string | 交易签名数据                |
-| data.publicKey     | string | 公钥                    |
-
-**请求示例：**
-
-<center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-4.png" width="100%" width="100%">
-</center>
-
-**请求体：**
-
-```json
-{
-"senderAddress": "did:bid:efQ69GRtQUDR9SngdFKAv4owYyx5Fnko",
-"senderPrivateKey":"priSPKi7K3nVAgtdCu9k9hVn4modxzFkd73JGsRrUYJR1T2RxM",
-"contractAddress":"did:bid:efAHUyTyhCdUXSxb3znw3Jw4ET24GdCk",
-"bifAmount":0, 
-"feeLimit":100000000, 
-"gasPrice":10,                                 
-"nonce":33,  
-"input":"{\"function\":\"burn(string)\",\"args\":\"'did:bid:efDtTjWBLkJjtRSJFMfBLNJ6LjnKu1tV'\"}"
-}
-```
-
-**响应示例:**
-
-```json
-{
-    "code": 200,
-    "data": {
-        "serialization": "0a286469643a6269643a65665136394752745155445239536e6764464b4176346f7759797835466e6b6f1021227f0807527b0a286469643a6269643a65664148557954796843645558537862337a6e77334a7734455432344764436b1a4f7b2266756e6374696f6e223a226275726e28737472696e6729222c2261726773223a22276469643a6269643a65664474546a57424c6b4a6a7452534a464d66424c4e4a364c6a6e4b7531745627227d3080c2d72f380a",
-        "signData": "2be1050f4663ebcce8a5afe4d76d83079575742f24842026cedd075a7df5ba81a0caecf2ce9de66bf0a37411fef1e422162c840dd07f7870a0578028fa53c502",
-        "publicKey": "b06566d8fb4a6dfbe0d5831e38f621391ad9191626f7e28c13d3a0482c52d5c9607b14"
-    },
-    "message": "ok"
-}
-```
-
-#### 4.5 激活用户账户
+#### 4.3 激活用户账户
 
 ```http
 https://{url}/registration/api/v2/account/upload
@@ -1932,10 +1775,10 @@ https://{url}/registration/api/v2/account/upload
 
 **响应参数**
 
-| **字段名** | **类型** | **描述**                                                                 |
-| ------- | ------ | ---------------------------------------------------------------------- |
-| retCode | number | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误                             |
-| retMsg  | string | 200-OK<br/>400-第1个账号phone不是有效的hash256字符，或者第1个账号Bid地址格式不正确<br/>500-服务错误 |
+| **字段名** | **类型** | **描述**                                                     |
+| ---------- | -------- | ------------------------------------------------------------ |
+| retCode    | int      | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误    |
+| retMsg     | string   | 200-OK<br/>400-第1个账号phone不是有效的hash256字符，或者第1个账号bid地址格式不正确<br/>500-服务错误 |
 
 **请求示例：**
 
@@ -1974,56 +1817,6 @@ https://{url}/registration/api/v2/account/upload
 {
     "retCode": 200,
     "retMsg": "ok"
-}
-```
-
-#### 4.6 获取当前地址nonce值
-
-```http
-https://{url}/registration/api/v2/chain/nonce
-```
-
-**请求方式**
-
-**GET**
-
-**Headers**
-
-| **字段名**     | **类型** | **是否必填** | **描述**     |
-| ----------- | ------ | -------- | ---------- |
-| accessToken | string | 是        | 用于B端用户调用接口 |
-
-**请求参数**
-
-| **字段名** | **类型** | **是否必填** | **描述**      |
-| ------- | ------ | -------- | ----------- |
-| userBid | string | 是        | 应用运营方的链账户身份 |
-
-**响应参数**
-
-| **字段名** | **类型** | **描述**                                                                                               |
-| ------- | ------ | ---------------------------------------------------------------------------------------------------- |
-| retCode | number | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误                                                           |
-| retMsg  | string | 200-OK<br>400-accessToken必填、accessToken不正确、accessToken过期、请检查请求参数,请求参数不能为空字符串、userBid不存在<br/>500-服务错误 |
-| nonce   | number | nonce值                                                                                               |
-
-**请求示例：**
-
-<center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-7.png" width="100%" width="100%">
-</center>
-
-<center>
-<img src="./docs/数字原生资产服务/DNA注册认证平台/image/认证图-8.png" width="100%" width="100%">
-</center>
-
-**响应示例**
-
-```json
-{
-    "retCode": 200,
-    "retMsg": "ok",
-    "nonce": 55
 }
 ```
 
@@ -2068,22 +1861,22 @@ https://{url}/auth/api/v1/series
 
 Data结构如下:
 
-| **字段名**         | **类型**   | **是否必填** | **描述**             |
-| --------------- | -------- | -------- | ------------------ |
-| seriesName      | String   | 是        | 数字资产集合名称           |
-| seriesIssuer    | String   | 是        | 数字资产集合发行方          |
-| externalUrl     | String   | 否        | 该集合对应网站的外部链接       |
-| seriesDes       | String   | 否        | 集合描述说明             |
-| seriesId        | Object[] | 是        | 应用方集合id或相互关联的子集合id |
-| totalDNA        | Number   | 是        | 集合下发行数字资产数量        |
-| asset_contracts | String   | 是        | 与集合关联的合约地址         |
+| **字段名**      | **类型** | **是否必填** | **描述**                         |
+| --------------- | -------- | ------------ | -------------------------------- |
+| seriesName      | String   | 是           | 数字资产集合名称，不超过50字符   |
+| seriesIssuer    | String   | 是           | 数字资产集合发行方               |
+| externalUrl     | String   | 否           | 该集合对应网站的外部链接         |
+| seriesDes       | String   | 否           | 集合描述说明                     |
+| seriesId        | Object[] | 是           | 应用方集合id或相互关联的子集合id |
+| totalDNA        | Number   | 是           | 集合下发行数字资产数量           |
+| asset_contracts | String   | 是           | 与集合关联的合约地址             |
 
 **响应参数**
 
-| **字段名** | **类型** | **描述**                                                                                                                 |
-| ------- | ------ | ---------------------------------------------------------------------------------------------------------------------- |
-| retCode | number | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误                                                                             |
-| retMsg  | string | 200-OK<br/>400-accessToken必填、accessToken不正确、accessToken过期、请检查请求参数,请求参数不能为空字符串、集合ID重复、集合名称不应超过50个字符、集合名称重复<br/>500-服务错误 |
+| **字段名** | **类型** | **描述**                                                     |
+| ---------- | -------- | ------------------------------------------------------------ |
+| retCode    | int      | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误    |
+| retMsg     | string   | 200-OK<br/>400-accessToken必填、accessToken不正确、accessToken过期、请检查请求参数,请求参数不能为空字符串、集合ID重复、集合名称不应超过50个字符、集合名称重复<br/>500-服务错误 |
 
 **请求示例：**
 
@@ -2146,28 +1939,28 @@ https://{url}/auth/api/v1/dna
 
 **Data结构如下：**
 
-| **字段名**    | **类型** | **是否必填** | **描述**                                  |
-| ---------- | ------ | -------- | --------------------------------------- |
-| seriesId   | String | 是        | 资产所属集合id或子集合id                          |
-| dnaName    | String | 是        | 数字资产名称                                  |
-| dnaNumber  | String | 是        | 数字资产的编号                                 |
-| tokenBid   | String | 是        | 数字资产Bid                                 |
-| dnaDes     | String | 否        | 数字资产描述说明                                |
-| dnaType    | string | 是        | 数字资产类型，0-图片、1-视频、2-音频                   |
-| url        | String | 是        | 数字资产图像的url,建议使用350px*350px的图像,需支持开放访问   |
-| displayUrl | String | 是        | 数字资产缩略图URL，建议尺寸85px*85px，需支持开放访问        |
-| hash       | String | 是        | 数字资产图片哈希值                               |
-| mintTime   | String | 是        | 数字资产链上mint交易时间                          |
-| owner      | String | 是        | 数字资产所有者，指账户地址；数字资产发生相关交易后，平台更新维护owner信息 |
-| dnaPrice   | Number | 是        | 数字资产发行价格                                |
-| extension  | String | 否        | 扩展字段，用户自定义，长度不超过1024个字符                 |
+| **字段名** | **类型** | **是否必填** | **描述**                                                     |
+| ---------- | -------- | ------------ | ------------------------------------------------------------ |
+| seriesId   | String   | 是           | 资产所属集合id或子集合id                                     |
+| dnaName    | String   | 是           | 数字资产名称                                                 |
+| dnaNumber  | String   | 是           | 数字资产的编号                                               |
+| tokenBid   | String   | 是           | 数字资产bid                                                  |
+| dnaDes     | String   | 否           | 数字资产描述说明                                             |
+| dnaType    | string   | 是           | 数字资产类型，0-图片、1-视频、2-音频                         |
+| url        | String   | 是           | 数字资产图像的url,建议使用350px*350px的图像,需支持开放访问   |
+| displayUrl | String   | 是           | 数字资产缩略图URL，建议尺寸85px*85px，需支持开放访问         |
+| hash       | String   | 是           | 数字资产图片哈希值                                           |
+| mintTime   | String   | 是           | 数字资产链上mint交易时间                                     |
+| owner      | String   | 是           | 数字资产所有者，指账户地址；数字资产发生相关交易后，平台更新维护owner信息 |
+| dnaPrice   | Number   | 是           | 数字资产发行价格                                             |
+| extension  | String   | 否           | 扩展字段，用户自定义，长度不超过1024个字符                   |
 
 **响应参数**
 
-| **字段名** | **类型** | **描述**                                                                                                                                                         |
-| ------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| retCode | number | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误                                                                                                                     |
-| retMsg  | string | 200-OK<br/>400-accessToken必填、accessToken不正确、accessToken过期、请检查请求参数,请求参数不能为空字符串、tokenBID重复、资产名称不应超过50个字符、集合ID不存在、请输入正确格式的数字资产url、请输入正确格式的数字资产缩略图url<br/>500-服务错误 |
+| **字段名** | **类型** | **描述**                                                     |
+| ---------- | -------- | ------------------------------------------------------------ |
+| retCode    | int      | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误    |
+| retMsg     | string   | 200-OK<br/>400-accessToken必填、accessToken不正确、accessToken过期、请检查请求参数,请求参数不能为空字符串、tokenBID重复、资产名称不应超过50个字符、集合ID不存在、请输入正确格式的数字资产url、请输入正确格式的数字资产缩略图url<br/>500-服务错误 |
 
 **请求示例：**
 
@@ -2236,20 +2029,20 @@ https://{url}/auth/api/v1/dna/transfer
 
 Data结构如下:
 
-| **字段名**  | **类型** | **是否必填** | **描述**                         |
-| -------- | ------ | -------- | ------------------------------ |
-| tokenBid | String | 是        | 数字资产BID,每个数字资产绑定一个子链bid作为唯一标识。 |
-| fromBid  | String | 是        | 资产转出的用户地址，每个用户绑定一个子链bid作为唯一标识  |
-| toBid    | String | 是        | 资产转入的用户地址                      |
-| txHash   | String | 是        | 该交易在链上的交易哈希值                   |
-| Time     | String | 是        | 该交易在链上的确认时间                    |
+| **字段名** | **类型** | **是否必填** | **描述**                                                |
+| ---------- | -------- | ------------ | ------------------------------------------------------- |
+| tokenBid   | String   | 是           | 数字资产bid,每个数字资产绑定一个子链bid作为唯一标识。   |
+| fromBid    | String   | 是           | 资产转出的用户地址，每个用户绑定一个子链bid作为唯一标识 |
+| toBid      | String   | 是           | 资产转入的用户地址                                      |
+| txHash     | String   | 是           | 该交易在链上的交易哈希值                                |
+| Time       | String   | 是           | 该交易在链上的确认时间                                  |
 
 **响应参数**
 
-| **字段名** | **类型** | **描述**                                                                                                                                |
-| ------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------- |
-| retCode | number | 返回状态码，取值：200-成功，400-信息错误，500-服务错误                                                                                                     |
-| retMsg  | string | 200-OK<br/>400-accessToken必填、accessToken不正确、accessToken过期、请检查请求参数,请求参数不能为空字符串、txHash重复（校验同一tokenBid，不同资产可重复）、tokenBID不存在<br/>500-服务错误 |
+| **字段名** | **类型** | **描述**                                                     |
+| ---------- | -------- | ------------------------------------------------------------ |
+| retCode    | int      | 返回状态码，取值：200-成功，400-信息错误，500-服务错误       |
+| retMsg     | string   | 200-OK<br/>400-accessToken必填、accessToken不正确、accessToken过期、请检查请求参数,请求参数不能为空字符串、txHash重复（校验同一tokenBid，不同资产可重复）、tokenBID不存在<br/>500-服务错误 |
 
 **请求示例：**
 
@@ -2310,19 +2103,19 @@ https://{url}/auth/api/v1/dna/destroy
 
 Data结构如下:
 
-| **字段名**  | **类型** | **是否必填** | **描述**                         |
-| -------- | ------ | -------- | ------------------------------ |
-| tokenBid | String | 是        | 数字资产BID,每个数字资产绑定一个子链bid作为唯一标识。 |
-| fromBid  | String | 是        | 数字资产持有用户的地址                    |
-| txHash   | string | 是        | 该交易在链上的交易哈希值                   |
-| Time     | string | 是        | 该交易在链上的确认时间                    |
+| **字段名** | **类型** | **是否必填** | **描述**                                              |
+| ---------- | -------- | ------------ | ----------------------------------------------------- |
+| tokenBid   | String   | 是           | 数字资产bid,每个数字资产绑定一个子链bid作为唯一标识。 |
+| fromBid    | String   | 是           | 数字资产持有用户的地址                                |
+| txHash     | string   | 是           | 该交易在链上的交易哈希值                              |
+| Time       | string   | 是           | 该交易在链上的确认时间                                |
 
 **响应参数**
 
-| **字段名** | **类型** | **描述**                                                                                                                               |
-| ------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------ |
-| retCode | number | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误                                                                                           |
-| retMsg  | string | 200-OK<br>400-accessToken必填、accessToken不正确、accessToken过期、请检查请求参数,请求参数不能为空字符串、txHash重复（校验同一tokenBid，不同资产可重复）、tokenBID不存在<br/>500-服务错误 |
+| **字段名** | **类型** | **描述**                                                     |
+| ---------- | -------- | ------------------------------------------------------------ |
+| retCode    | int      | 返回状态码<br/>200-成功<br/>400-信息错误<br/>500-服务错误    |
+| retMsg     | string   | 200-OK<br>400-accessToken必填、accessToken不正确、accessToken过期、请检查请求参数,请求参数不能为空字符串、txHash重复（校验同一tokenBid，不同资产可重复）、tokenBID不存在<br/>500-服务错误 |
 
 **请求示例：**
 
@@ -2379,7 +2172,7 @@ Data结构如下:
 业务需要全部激活：
 
 * 业务层激活：输入<font color=red>手机号hash</font>完成业务激活，用于数据互联互通。
-* 链上激活：必须保证用户BID账号有星火令且能数量足够。入参<font color=red>feelimit</font>设置推荐值<font color=red>20,000,000</font>
+* 链上激活：必须保证用户bid账号有星火令且能数量足够。入参<font color=red>feelimit</font>设置推荐值<font color=red>20,000,000</font>
 
 **备注：后台自动维护星火令，用户无需过多关注这个场景，交易失败重试即可解决。**
 
@@ -2391,7 +2184,7 @@ Data结构如下:
 
 #### 2.1 业务初始化失败
 
-原因DNA注册认证平台主账号星火令不足，联系技术人员补充<font color=red>星火令</font>。
+原因DNA注册认证服务平台主账号星火令不足，联系技术人员补充<font color=red>星火令</font>。
 
 #### 2.2 修改应用名
 
