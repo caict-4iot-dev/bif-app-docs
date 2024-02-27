@@ -50,40 +50,40 @@
 步骤一：创建和导入星火·链网账号
 - 创建账户：用户登录初始页进行账户创建，设置安全密码，并绑定手机号。
 <center>
-<img src="./docs/数字身份服务/星火链网APP/image/01创建账户.PNG" width=60%" width="60%">
+<img src="./docs/客户端/星火链网APP/image/01创建账户.PNG" width=60%" width="60%">
 </center>   
 
 - 导入账户：用户可以选择通过导入私钥/Keystore/助记词等方式将原有账户导入至APP。
 <center>
-<img src="./docs/数字身份服务/星火链网APP/image/02导入账户.PNG" width="30%" width="30%">
+<img src="./docs/客户端/星火链网APP/image/02导入账户.PNG" width="30%" width="30%">
 </center>     
 
 - 切换账户：点击左侧导航栏进行账户切换。
 <center>
-<img src="./docs/数字身份服务/星火链网APP/image/03切换账户.PNG" width="30%" width="30%">
+<img src="./docs/客户端/星火链网APP/image/03切换账户.PNG" width="30%" width="30%">
 </center>     
 
 - 管理账户：点击头像左侧可以进行账户名编辑，点击导出Keystore/导出私钥/备份助记词完成备份；支持修改安全密码和修改绑定的手机号。
 <center>
-<img src="./docs/数字身份服务/星火链网APP/image/04管理账户.jpg" width="30%" width="30%">
+<img src="./docs/客户端/星火链网APP/image/04管理账户.jpg" width="30%" width="30%">
 </center>     
   
 
 步骤二：申领星火数字身份体验卡
 - 申请身份体验卡：用户注册完成后默认进入到资产模块，选择网络环境，如星火链主网，点击下方数字身份体验卡，进行数字身份申领，并查看审核结果。
 <center>
-<img src="./docs/数字身份服务/星火链网APP/image/05申请数字身份体验卡.PNG" width="70%" width="70%">
+<img src="./docs/客户端/星火链网APP/image/05申请数字身份体验卡.PNG" width="70%" width="70%">
 </center>
   
 
 - 出示身份体验卡：审核通过后凭证颁发方会给用户颁发身份体验卡，用户可以点击查看详情，并根据需要选择性披露相关信息。
 <center>
-<img src="./docs/数字身份服务/星火链网APP/image/06选择性披露.PNG" width="70%" width="70%">
+<img src="./docs/客户端/星火链网APP/image/06选择性披露.PNG" width="70%" width="70%">
 </center>  
 
 - 验证身份体验卡：验证方通过本产品的扫一扫功能，验证用户出示的二维码信息。
 <center>
-<img src="./docs/数字身份服务/星火链网APP/image/07身份验证.PNG" width="60%" width="60%">
+<img src="./docs/客户端/星火链网APP/image/07身份验证.PNG" width="60%" width="60%">
 </center>  
  
 
@@ -91,24 +91,24 @@
 
 - 查看购买的数字藏品：用户点击数字藏品tab，可以查看前期在星火·链网生态体系下购买的数字藏品，点击藏品可以查看详情及流转历史信息。APP同时支持按照藏品名称/藏品BID等条件进行查询检索。
 <center>
-<img src="./docs/数字身份服务/星火链网APP/image/08数字藏品.PNG" width="60%" width="60%">
+<img src="./docs/客户端/星火链网APP/image/08数字藏品.PNG" width="60%" width="60%">
 </center>     
 
 - 验证数字藏品流转情况：复制藏品BID，到发现栏目中点击DNA浏览器查询该藏品的链上信息，校验数字藏品真实性。
 <center>
-<img src="./docs/数字身份服务/星火链网APP/image/09数字产品流转历史.jpg" width="30%" width="30%">
+<img src="./docs/客户端/星火链网APP/image/09数字产品流转历史.jpg" width="30%" width="30%">
 </center>       
 
 步骤四：访问第三方应用
 
 - 访问应用：用户在搜索框输入应用名称进行模糊搜索，或直接输入应用URL访问第三方应用。
 <center>
-<img src="./docs/数字身份服务/星火链网APP/image/10浏览页面.jpg" width="30%" width="30%">
+<img src="./docs/客户端/星火链网APP/image/10浏览页面.jpg" width="30%" width="30%">
 </center>        .
   
 - 收藏应用：点击第三方应用页面右上角[...]进行应用收藏，点击[更多]查看更多应用。
  <center>
-<img src="./docs/数字身份服务/星火链网APP/image/11收藏应用.PNG" width="30%" width="30%">
+<img src="./docs/客户端/星火链网APP/image/11收藏应用.PNG" width="30%" width="30%">
 </center>     
 
 ## 常见问题
